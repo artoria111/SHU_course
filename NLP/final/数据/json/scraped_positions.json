@@ -1,0 +1,2150 @@
+[
+  {
+    "name": "轴承技术研发经理",
+    "city": "",
+    "salary": "20-40k",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "某宁波知名公司",
+    "industry": "",
+    "company_size": "5000-10000人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "技术研发经理",
+    "city": "",
+    "salary": "15-20k",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "浙江鸿屹智能装备科技有限公司",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "成套技术研发部经理",
+    "city": "",
+    "salary": "25-30k·15薪",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "某国内电气机械/器材上市公司",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "机械技术研发经理",
+    "city": "上海",
+    "salary": "35-50k·14薪",
+    "experience": "5-10年",
+    "education": "大专",
+    "company": "某上海大型家具家电公司",
+    "industry": "",
+    "company_size": "2000-5000人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械技术研发经理",
+    "city": "深圳",
+    "salary": "50-55k",
+    "experience": "10年以上",
+    "education": "本科",
+    "company": "某深圳大型智能硬件/消费电子公司",
+    "industry": "",
+    "company_size": "C轮融资",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "废水废液研发室主任（技术研发部经理）",
+    "city": "天津",
+    "salary": "20-35k·15薪",
+    "experience": "6年以上",
+    "education": "本科",
+    "company": "某天津环保公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高压锅技术研发经理",
+    "city": "",
+    "salary": "18-30k",
+    "experience": "5-10年",
+    "education": "大专",
+    "company": "某知名公司",
+    "industry": "",
+    "company_size": "",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "机械技术研发经理",
+    "city": "深圳",
+    "salary": "22-30k",
+    "experience": "8年以上",
+    "education": "本科",
+    "company": "某深圳机械/设备公司",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "技术研发经理（拟上市）",
+    "city": "",
+    "salary": "15-25k·15薪",
+    "experience": "10年以上",
+    "education": "大专",
+    "company": "某国内机械/设备公司",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "碳循环前沿技术研发经理",
+    "city": "厦门",
+    "salary": "30-50k·18薪",
+    "experience": "10年以上",
+    "education": "硕士",
+    "company": "某国内新能源上市公司",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "技术研发经理",
+    "city": "",
+    "salary": "25-40k·13薪",
+    "experience": "10年以上",
+    "education": "本科",
+    "company": "某上海汽车零部件及配件公司",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "产品技术研发经理（电动出行）",
+    "city": "",
+    "salary": "35-45k·15薪",
+    "experience": "5-10年",
+    "education": "学历不限",
+    "company": "某国内其他制造业公司",
+    "industry": "",
+    "company_size": "500-999人",
+    "skills": [
+      "需求分析",
+      "原型设计",
+      "Axure",
+      "Figma",
+      "数据分析",
+      "用户研究",
+      "PRD撰写",
+      "竞品分析",
+      "项目管理",
+      "敏捷开发"
+    ]
+  },
+  {
+    "name": "技术研发经理（汽车底盘件）",
+    "city": "",
+    "salary": "22-28k",
+    "experience": "10年以上",
+    "education": "大专",
+    "company": "某国内汽车零部件及配件公司",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "机械技术研发经理（空压机、气悬浮压缩机）",
+    "city": "苏州",
+    "salary": "40-50k",
+    "experience": "8年以上",
+    "education": "本科",
+    "company": "某苏州轨道交通/船舶设备公司",
+    "industry": "",
+    "company_size": "A轮融资",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "技术研发经理",
+    "city": "",
+    "salary": "25-50k",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "某知名公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "变压器技术研发部副经理（油浸变压器）",
+    "city": "北京",
+    "salary": "15-20k·13薪",
+    "experience": "5年以上",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "变压器技术研发部副经理",
+    "city": "北京",
+    "salary": "10-15k·13薪",
+    "experience": "5年以上",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "变压器技术研发部经理",
+    "city": "北京",
+    "salary": "15-25k·13薪",
+    "experience": "5年以上",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "技术研发经理",
+    "city": "上海",
+    "salary": "30-60k",
+    "experience": "10年以上",
+    "education": "硕士",
+    "company": "江苏泰特尔新材料科技股份有限公司",
+    "industry": "",
+    "company_size": "A轮融资",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "技术研发部经理",
+    "city": "北京",
+    "salary": "50-80k·14薪",
+    "experience": "10年以上",
+    "education": "硕士",
+    "company": "",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "机械技术研发经理",
+    "city": "东莞",
+    "salary": "30-50k·13薪",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "某国内人力资源服务公司",
+    "industry": "",
+    "company_size": "",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "技术研发副总经理",
+    "city": "",
+    "salary": "60-90k",
+    "experience": "5-10年",
+    "education": "硕士",
+    "company": "某广州大型石化公司",
+    "industry": "",
+    "company_size": "500-999人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "机械技术研发经理",
+    "city": "",
+    "salary": "30-40k·15薪",
+    "experience": "经验不限",
+    "education": "本科",
+    "company": "某知名公司",
+    "industry": "",
+    "company_size": "10000人以上",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械技术研发经理",
+    "city": "",
+    "salary": "15-25k·13薪",
+    "experience": "10年以上",
+    "education": "大专",
+    "company": "某国内机械/设备公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "海洋装备技术研发经理/副总工程师",
+    "city": "广州",
+    "salary": "30-35k",
+    "experience": "3-5年",
+    "education": "本科",
+    "company": "某广州机械/设备公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "自动驾驶技术研发经理",
+    "city": "",
+    "salary": "30-60k",
+    "experience": "3-5年",
+    "education": "本科",
+    "company": "某大连知名上市公司",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "技术研发经理",
+    "city": "",
+    "salary": "25-40k",
+    "experience": "10年以上",
+    "education": "本科",
+    "company": "某宁波智能硬件/消费电子公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "产品技术研发经理-欧洲粉末涂料厂商",
+    "city": "苏州",
+    "salary": "20-35k·15薪",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "某知名公司",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "需求分析",
+      "原型设计",
+      "Axure",
+      "Figma",
+      "数据分析",
+      "用户研究",
+      "PRD撰写",
+      "竞品分析",
+      "项目管理",
+      "敏捷开发"
+    ]
+  },
+  {
+    "name": "技术研发经理（制冷、除湿机或空调行业）",
+    "city": "",
+    "salary": "20-30k",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "某国内机械/设备公司",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "技术研发副总经理（海洋机器人）",
+    "city": "杭州",
+    "salary": "60-90k·14薪",
+    "experience": "10年以上",
+    "education": "硕士",
+    "company": "某杭州人工智能公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "绿色制造技术研发经理--零碳改造及产业升级方向",
+    "city": "厦门",
+    "salary": "30-40k·18薪",
+    "experience": "5-10年",
+    "education": "硕士",
+    "company": "某国内新能源上市公司",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "技术研发经理",
+    "city": "",
+    "salary": "15-18k·16薪",
+    "experience": "10年以上",
+    "education": "本科",
+    "company": "（印刷包装集团公司）",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "技术研发部经理",
+    "city": "",
+    "salary": "12-18k",
+    "experience": "经验不限",
+    "education": "大专",
+    "company": "某上海电子/半导体/集成电路公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "分子诊断产品经理",
+    "city": "上海",
+    "salary": "18-22k·25薪",
+    "experience": "经验不限",
+    "education": "学历不限",
+    "company": "IVD大型公司",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "需求分析",
+      "原型设计",
+      "Axure",
+      "Figma",
+      "数据分析",
+      "用户研究",
+      "PRD撰写",
+      "竞品分析",
+      "项目管理",
+      "敏捷开发"
+    ]
+  },
+  {
+    "name": "分子构建与细胞工程工程师",
+    "city": "",
+    "salary": "25-40k",
+    "experience": "2年以上",
+    "education": "硕士",
+    "company": "",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "高分子材料研发工程师",
+    "city": "",
+    "salary": "6-10k",
+    "experience": "3-5年",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "高分子材料顾问",
+    "city": "",
+    "salary": "8-15k",
+    "experience": "5-10年",
+    "education": "硕士",
+    "company": "宁波润泰卫浴科技有限公司",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "",
+    "salary": "10-20k·13薪",
+    "experience": "经验不限",
+    "education": "本科",
+    "company": "广州哇达科技有限公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "",
+    "salary": "10-20k·13薪",
+    "experience": "经验不限",
+    "education": "本科",
+    "company": "保然网络科技(惠民)有限公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "苏州",
+    "salary": "10-20k·13薪",
+    "experience": "2年以上",
+    "education": "本科",
+    "company": "南阳钰椿贸易有限公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "上海",
+    "salary": "10-20k·13薪",
+    "experience": "2年以上",
+    "education": "本科",
+    "company": "大连尚雅仕航传媒有限公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "北京",
+    "salary": "10-20k·13薪",
+    "experience": "经验不限",
+    "education": "本科",
+    "company": "大连启扬筑梦传媒有限公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "深圳",
+    "salary": "10-20k·13薪",
+    "experience": "2年以上",
+    "education": "本科",
+    "company": "大连翼德深道传媒有限公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "高分子检测工程师",
+    "city": "上海",
+    "salary": "9-15k",
+    "experience": "3-5年",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "B轮融资",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "",
+    "salary": "10-20k·13薪",
+    "experience": "经验不限",
+    "education": "大专",
+    "company": "海口龙华雯高匪商贸有限公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "",
+    "salary": "10-20k·13薪",
+    "experience": "2年以上",
+    "education": "本科",
+    "company": "武汉市岚择郡文化传媒有限公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "南京",
+    "salary": "10-20k·13薪",
+    "experience": "经验不限",
+    "education": "本科",
+    "company": "广州亦闻文化传媒有限公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "",
+    "salary": "10-20k·13薪",
+    "experience": "2年以上",
+    "education": "本科",
+    "company": "大连风云百典商务有限公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "高分子销售经理",
+    "city": "",
+    "salary": "25-40k",
+    "experience": "5-10年",
+    "education": "大专",
+    "company": "宁波恒拓高分子材料有限公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "客户开发",
+      "商务谈判",
+      "CRM",
+      "销售管理",
+      "市场分析",
+      "合同管理"
+    ]
+  },
+  {
+    "name": "改性高分子研发经理",
+    "city": "",
+    "salary": "25-35k·13薪",
+    "experience": "5年以上",
+    "education": "本科",
+    "company": "宁波恒拓高分子材料有限公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高分子博士（橡胶方向）",
+    "city": "",
+    "salary": "25-50k·13薪",
+    "experience": "经验不限",
+    "education": "博士",
+    "company": "",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高分子检测实验室负责人",
+    "city": "上海",
+    "salary": "20-30k·14薪",
+    "experience": "3年以上",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "B轮融资",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高分子材料研发专家/主任工程师",
+    "city": "厦门",
+    "salary": "18-30k",
+    "experience": "3年以上",
+    "education": "硕士",
+    "company": "",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "高分子博士",
+    "city": "",
+    "salary": "40-70k·13薪",
+    "experience": "5-10年",
+    "education": "博士",
+    "company": "",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高分子材料市场研发与技术支持",
+    "city": "",
+    "salary": "8-10k",
+    "experience": "经验不限",
+    "education": "本科",
+    "company": "潍坊山道化学有限公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "品牌策划",
+      "数字营销",
+      "SEO/SEM",
+      "内容营销",
+      "数据分析",
+      "市场调研",
+      "广告投放",
+      "社交媒体运营"
+    ]
+  },
+  {
+    "name": "高分子材料工程师",
+    "city": "",
+    "salary": "35-55k",
+    "experience": "经验不限",
+    "education": "学历不限",
+    "company": "江苏迈普企业管理有限公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "长沙",
+    "salary": "13-16k",
+    "experience": "经验不限",
+    "education": "大专",
+    "company": "某长沙计算机软件公司",
+    "industry": "",
+    "company_size": "B轮融资",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "杭州",
+    "salary": "13-18k",
+    "experience": "经验不限",
+    "education": "大专",
+    "company": "某杭州计算机软件公司",
+    "industry": "",
+    "company_size": "B轮融资",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "上海",
+    "salary": "12-18k",
+    "experience": "经验不限",
+    "education": "大专",
+    "company": "某上海计算机软件上市公司",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "大客户销售（金属、高分子材料检测）",
+    "city": "重庆",
+    "salary": "15-30k",
+    "experience": "3-5年",
+    "education": "大专",
+    "company": "某青岛检测认证公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "客户开发",
+      "商务谈判",
+      "CRM",
+      "销售管理",
+      "市场分析",
+      "合同管理"
+    ]
+  },
+  {
+    "name": "高分子材料方向博士",
+    "city": "",
+    "salary": "26-40k",
+    "experience": "1-3年",
+    "education": "博士",
+    "company": "某广州大型工程施工公司",
+    "industry": "",
+    "company_size": "2000-5000人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "深圳",
+    "salary": "14-18k",
+    "experience": "经验不限",
+    "education": "大专",
+    "company": "某深圳IT服务公司",
+    "industry": "",
+    "company_size": "",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "city": "北京",
+    "salary": "13-18k",
+    "experience": "经验不限",
+    "education": "大专",
+    "company": "某北京计算机软件公司",
+    "industry": "",
+    "company_size": "D轮及以上融资",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "高分子材料工程师（PTFE）",
+    "city": "",
+    "salary": "20-40k",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "杭州华栋智能科技有限公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "生产技术经理（硬质密封制品，高分子材料行业）",
+    "city": "",
+    "salary": "12-17k",
+    "experience": "5-10年",
+    "education": "大专",
+    "company": "某知名公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高分子材料研发工程师（塑料方向）",
+    "city": "",
+    "salary": "8-10k",
+    "experience": "1-3年",
+    "education": "本科",
+    "company": "某知名公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "高分子合成研发工程师（自由基聚合）",
+    "city": "",
+    "salary": "20-25k·13薪",
+    "experience": "2-7年",
+    "education": "硕士",
+    "company": "某国内化工上市公司",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "分子公司总经理",
+    "city": "",
+    "salary": "30-50k",
+    "experience": "10年以上",
+    "education": "本科",
+    "company": "分子公司总经理",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "韩企韩语（高分子材料/有机化学/电子PCB）",
+    "city": "苏州",
+    "salary": "11-15k·13薪",
+    "experience": "1-3年",
+    "education": "本科",
+    "company": "某北京大型人力资源服务公司",
+    "industry": "",
+    "company_size": "5000-10000人",
+    "skills": [
+      "Verilog",
+      "VHDL",
+      "FPGA",
+      "PCB设计",
+      "电子电路",
+      "嵌入式开发",
+      "ARM"
+    ]
+  },
+  {
+    "name": "机械设计高级经理（非标自动化设备）",
+    "city": "",
+    "salary": "35-45k·13薪",
+    "experience": "8年以上",
+    "education": "大专",
+    "company": "某国内大型电子/半导体/集成电路公司",
+    "industry": "",
+    "company_size": "10000人以上",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械设计高级经理-高尔夫球车",
+    "city": "",
+    "salary": "20-40k",
+    "experience": "8年以上",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械设计高级经理",
+    "city": "",
+    "salary": "25-30k·13薪",
+    "experience": "8-10年",
+    "education": "本科",
+    "company": "某国内机械/设备上市公司",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械设计高级经理",
+    "city": "",
+    "salary": "25-35k·13薪",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械设计高级经理",
+    "city": "苏州",
+    "salary": "25-40k",
+    "experience": "10年以上",
+    "education": "本科",
+    "company": "苏州德机自动化科技有限公司",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械设计专家/经理/高级经理",
+    "city": "",
+    "salary": "65-75k",
+    "experience": "3年以上",
+    "education": "硕士",
+    "company": "上海知远睿才企业管理有限公司",
+    "industry": "",
+    "company_size": "",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "客户运营高级经理-游戏",
+    "city": "广州",
+    "salary": "20-40k·15薪",
+    "experience": "3年以上",
+    "education": "本科",
+    "company": "集团招聘经理",
+    "industry": "",
+    "company_size": "B轮融资",
+    "skills": [
+      "Unity",
+      "Unreal Engine",
+      "C#",
+      "C++",
+      "3D渲染",
+      "游戏引擎",
+      "Lua",
+      "OpenGL"
+    ]
+  },
+  {
+    "name": "非标机械设计",
+    "city": "",
+    "salary": "12-20k·14薪",
+    "experience": "3-5年",
+    "education": "本科",
+    "company": "米拓半导体(上海)股份有限公司",
+    "industry": "",
+    "company_size": "B轮融资",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "酒会邀约高级经理",
+    "city": "武汉",
+    "salary": "15-40k",
+    "experience": "2年以上",
+    "education": "大专",
+    "company": "",
+    "industry": "",
+    "company_size": "2000-5000人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "机械设计工程师",
+    "city": "武汉",
+    "salary": "15-16k·13薪",
+    "experience": "3年以上",
+    "education": "本科",
+    "company": "海南云霆好居房产咨询有限公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "事业开发高级经理",
+    "city": "",
+    "salary": "30-50k",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "卫材(中国)药业有限公司上海分公司",
+    "industry": "",
+    "company_size": "1000-2000人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "工艺高级经理/总监",
+    "city": "苏州",
+    "salary": "25-40k",
+    "experience": "5年以上",
+    "education": "本科",
+    "company": "无锡运帷汇质企业管理咨询有限公司",
+    "industry": "",
+    "company_size": "",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "ILM",
+    "city": "",
+    "salary": "",
+    "experience": "3-5年",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "2000-5000人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "车辆机械设计工程师",
+    "city": "",
+    "salary": "6-8k·13薪",
+    "experience": "经验不限",
+    "education": "大专",
+    "company": "河南亚菲品牌策划有限公司",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "总部零售管理负责人（高级经理/总监）",
+    "city": "南京",
+    "salary": "20-35k·18薪",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "上海沙滩杰特教育科技有限公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "总部渠道管理负责人（高级经理/总监）",
+    "city": "南京",
+    "salary": "20-40k·18薪",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "上海沙滩杰特教育科技有限公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "总部GTM负责人（高级经理/总监）",
+    "city": "",
+    "salary": "20-40k·18薪",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "上海沙滩杰特教育科技有限公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "机械设计总工程师",
+    "city": "",
+    "salary": "25-40k·13薪",
+    "experience": "8年以上",
+    "education": "硕士",
+    "company": "",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "Mechanical",
+    "city": "",
+    "salary": "",
+    "experience": "3-5年",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "2000-5000人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "注册经理/高级经理",
+    "city": "",
+    "salary": "",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "卫材(中国)药业有限公司上海分公司",
+    "industry": "",
+    "company_size": "1000-2000人",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高级机械工程师/电镀线龙门线水平线经验均可",
+    "city": "",
+    "salary": "15-30k",
+    "experience": "5-10年",
+    "education": "大专",
+    "company": "某知名公司",
+    "industry": "",
+    "company_size": "",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "龙门铣机床机械设计工程师",
+    "city": "",
+    "salary": "15-25k",
+    "experience": "3-5年",
+    "education": "本科",
+    "company": "某国内新能源公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械设计工程师【龙门】",
+    "city": "",
+    "salary": "15-30k·13薪",
+    "experience": "2-10年",
+    "education": "大专",
+    "company": "某国内机械/设备上市公司",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械工程师-龙门/落地镗/立车-大型",
+    "city": "",
+    "salary": "18-25k·13薪",
+    "experience": "5-10年",
+    "education": "大专",
+    "company": "某矿产开采上市公司",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "重型数控龙门镗铣加工中心机械结构高级工程师",
+    "city": "",
+    "salary": "28-40k",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "上海齐重智科装备有限公司",
+    "industry": "",
+    "company_size": "",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "空气悬架CATIA机械工程师",
+    "city": "",
+    "salary": "",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "欧摩威集团",
+    "industry": "",
+    "company_size": "5000-10000人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "关节机械结构工程师",
+    "city": "苏州",
+    "salary": "15-45k",
+    "experience": "3年以上",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "500-999人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械工程师",
+    "city": "",
+    "salary": "10-15k",
+    "experience": "3-5年",
+    "education": "本科",
+    "company": "沈阳思勤传媒科技有限公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械结构工程师",
+    "city": "苏州",
+    "salary": "20-50k·15薪",
+    "experience": "3年以上",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "500-999人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械研发工程师（机器人行业）(J11430)",
+    "city": "南京",
+    "salary": "25-40k·13薪",
+    "experience": "5年以上",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "A轮融资",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械设备管理工程师",
+    "city": "",
+    "salary": "12-20k",
+    "experience": "3年以上",
+    "education": "大专",
+    "company": "新疆宏兴镁业有限公司",
+    "industry": "",
+    "company_size": "500-999人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械手研发工程师(J10170)",
+    "city": "",
+    "salary": "15-25k·15薪",
+    "experience": "3年以上",
+    "education": "本科",
+    "company": "无锡丹尼克尔自动化科技有限公司",
+    "industry": "",
+    "company_size": "天使轮融资",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "非标机械设计工程师",
+    "city": "",
+    "salary": "10-15k",
+    "experience": "3年以上",
+    "education": "本科",
+    "company": "南通晶品科技发展有限公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械结构工程师(A246939)",
+    "city": "上海",
+    "salary": "25-50k·15薪",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "上海达纳灵动科技有限公司",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械设备工程师（选矿厂）",
+    "city": "",
+    "salary": "22-30k",
+    "experience": "10年以上",
+    "education": "学历不限",
+    "company": "苏州盛源锂电材料有限公司",
+    "industry": "",
+    "company_size": "50-99人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械工程师",
+    "city": "",
+    "salary": "15-30k·15薪",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "上海寅成智能科技有限公司",
+    "industry": "",
+    "company_size": "天使轮融资",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械工程师",
+    "city": "",
+    "salary": "15-25k",
+    "experience": "1-3年",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械工程师（灵巧手）",
+    "city": "上海",
+    "salary": "15-25k·15薪",
+    "experience": "2年以上",
+    "education": "本科",
+    "company": "酷哇科技有限公司",
+    "industry": "",
+    "company_size": "D轮及以上融资",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械工程师",
+    "city": "重庆",
+    "salary": "6-15k",
+    "experience": "3年以上",
+    "education": "大专",
+    "company": "重庆云捷锐能科技有限公司",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "资深机械工程师",
+    "city": "上海",
+    "salary": "15-25k",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "河南东微电子材料有限公司",
+    "industry": "",
+    "company_size": "C轮融资",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械工程师",
+    "city": "上海",
+    "salary": "10-20k·15薪",
+    "experience": "2年以上",
+    "education": "本科",
+    "company": "河南东微电子材料有限公司",
+    "industry": "",
+    "company_size": "C轮融资",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械设备工程师",
+    "city": "广州",
+    "salary": "10-18k·14薪",
+    "experience": "2年以上",
+    "education": "本科",
+    "company": "广州兴森快捷电路科技有限公司",
+    "industry": "",
+    "company_size": "2000-5000人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "高级机械工程师",
+    "city": "广州",
+    "salary": "6-10k",
+    "experience": "3年以上",
+    "education": "大专",
+    "company": "",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械工程师（半导体-合肥）",
+    "city": "",
+    "salary": "25-50k",
+    "experience": "3年以上",
+    "education": "硕士",
+    "company": "中科慧远智能装备(广东)有限公司",
+    "industry": "",
+    "company_size": "100-499人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械结构设计工程师（大专及以上）",
+    "city": "杭州",
+    "salary": "8-15k",
+    "experience": "5-10年",
+    "education": "大专",
+    "company": "杭州巨林智能科技有限公司",
+    "industry": "",
+    "company_size": "1-49人",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "高级/机械工程师",
+    "city": "",
+    "salary": "13-23k",
+    "experience": "经验不限",
+    "education": "本科",
+    "company": "",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械设计工程师",
+    "city": "",
+    "salary": "10-18k·13薪",
+    "experience": "3年以上",
+    "education": "本科",
+    "company": "青葵智造(北京)科技有限公司",
+    "industry": "",
+    "company_size": "A轮融资",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械装配工程师",
+    "city": "",
+    "salary": "6-10k",
+    "experience": "1-3年",
+    "education": "中专/中技",
+    "company": "惠州市联赢科技有限公司",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械工程师",
+    "city": "",
+    "salary": "15-25k",
+    "experience": "5年以上",
+    "education": "大专",
+    "company": "深圳市智立方自动化设备股份有限公司",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械结构工程师",
+    "city": "",
+    "salary": "13-18k·13薪",
+    "experience": "5-10年",
+    "education": "本科",
+    "company": "一塔半导体(安徽)有限公司",
+    "industry": "",
+    "company_size": "A轮融资",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械结构工程师",
+    "city": "",
+    "salary": "10-20k",
+    "experience": "3年以上",
+    "education": "本科",
+    "company": "北京临一云川能源技术有限公司",
+    "industry": "",
+    "company_size": "A轮融资",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械工程师",
+    "city": "北京",
+    "salary": "20-30k",
+    "experience": "3-5年",
+    "education": "硕士",
+    "company": "北京首创生态环保集团股份有限公司",
+    "industry": "",
+    "company_size": "已上市",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械设备工程师",
+    "city": "",
+    "salary": "12-15k",
+    "experience": "3年以上",
+    "education": "大专",
+    "company": "镔鑫钢铁集团",
+    "industry": "",
+    "company_size": "5000-10000人",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  }
+]

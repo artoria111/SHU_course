@@ -1,0 +1,34 @@
+# Project: SortShow≈≈–Ú–„
+# Makefile created by Dev-C++ 5.16
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = ./Dev_Debug/Main.o ./Dev_Debug/SortShow.o ./Dev_Debug/Sorts_Show.o
+LINKOBJ  = ./Dev_Debug/Main.o ./Dev_Debug/SortShow.o ./Dev_Debug/Sorts_Show.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libstdc++ -static-libgcc -g3 -lwinmm
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"
+BIN      = Dev_Debug/SortShow≈≈–Ú–„.exe
+CXXFLAGS = $(CXXINCS) -pipe -g3
+CFLAGS   = $(INCS) -pipe -g3
+RM       = del /q
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+./Dev_Debug/Main.o: Main.cpp
+	$(CPP) -c Main.cpp -o ./Dev_Debug/Main.o $(CXXFLAGS)
+
+./Dev_Debug/SortShow.o: SortShow.cpp
+	$(CPP) -c SortShow.cpp -o ./Dev_Debug/SortShow.o $(CXXFLAGS)
+
+./Dev_Debug/Sorts_Show.o: Sorts_Show.cpp
+	$(CPP) -c Sorts_Show.cpp -o ./Dev_Debug/Sorts_Show.o $(CXXFLAGS)

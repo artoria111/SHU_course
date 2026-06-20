@@ -1,0 +1,24 @@
+
+seller* get_seller_from_file()
+buyer*  get_buyer_from_file()
+goods*  get_goods_from_file()
+
+void write_seller_info_file(seller*)
+void write_buyer_info_file(buyer*)
+void write_goods_info_file(goods*)
+
+seller* input_seller()
+buyer*  input_buyer()
+goods*  input_goods()
+
+seller* input_multi_seller(int)
+buyer*  input_multi_buyer(int)
+goods*  input_multi_goods(int)
+
+void print_seller(seller*)
+void print_buyer(buyer*)
+void print_goods(goods*)
+
+void init_seller_file()
+void init_buyer_file()
+void init_goods_file()

@@ -1,0 +1,92 @@
+[Project]
+name=String
+type=0
+defaultConfig=0
+
+[Debug]
+// compiler 
+workingDirectory=
+arguments=
+intermediateFilesDirectory=Debug
+outputFilesDirectory=Debug
+compilerPreprocessor=
+extraCompilerOptions=
+compilerIncludeDirectory=
+noWarning=0
+defaultWarning=0
+allWarning=1
+extraWarning=0
+isoWarning=0
+warningsAsErrors=0
+debugType=1
+debugLevel=2
+exceptionEnabled=1
+runtimeTypeEnabled=1
+optimizeLevel=0
+
+// linker
+libraryPath=
+outputFilename=Debug\String.exe
+libraries=
+extraLinkerOptions=
+ignoreStartupFile=0
+ignoreDefaultLibs=0
+stripExecutableFile=0
+
+// archive
+extraArchiveOptions=
+
+//resource
+resourcePreprocessor=
+resourceIncludeDirectory=
+extraResourceOptions=
+
+[Release]
+// compiler 
+workingDirectory=
+arguments=
+intermediateFilesDirectory=Release
+outputFilesDirectory=Release
+compilerPreprocessor=
+extraCompilerOptions=
+compilerIncludeDirectory=
+noWarning=0
+defaultWarning=0
+allWarning=1
+extraWarning=0
+isoWarning=0
+warningsAsErrors=0
+debugType=0
+debugLevel=0
+exceptionEnabled=1
+runtimeTypeEnabled=1
+optimizeLevel=2
+
+// linker
+libraryPath=
+outputFilename=Release\String.exe
+libraries=
+extraLinkerOptions=
+ignoreStartupFile=0
+ignoreDefaultLibs=0
+stripExecutableFile=1
+
+// archive
+extraArchiveOptions=
+
+//resource
+resourcePreprocessor=
+resourceIncludeDirectory=
+extraResourceOptions=
+
+[Source]
+1=.\String.cpp
+2=.\StringMain.cpp
+[Header]
+1=.\String.h
+[Resource]
+[Other]
+[History]
+.\String.cpp, 0
+.\StringMain.cpp, 0
+.\String.h, 0

@@ -1,0 +1,34 @@
+# Project: 项目1排序算法优化
+# Makefile created by Dev-C++ 5.16
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = ./Dev_Debug/DataCreate.o ./Dev_Debug/main.o ./Dev_Debug/TimeTest.o
+LINKOBJ  = ./Dev_Debug/DataCreate.o ./Dev_Debug/main.o ./Dev_Debug/TimeTest.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libstdc++ -static-libgcc -g3
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"
+BIN      = Dev_Debug/项目1排序算法优化.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+RM       = del /q
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+./Dev_Debug/DataCreate.o: DataCreate.cpp
+	$(CPP) -c DataCreate.cpp -o ./Dev_Debug/DataCreate.o $(CXXFLAGS)
+
+./Dev_Debug/main.o: main.cpp
+	$(CPP) -c main.cpp -o ./Dev_Debug/main.o $(CXXFLAGS)
+
+./Dev_Debug/TimeTest.o: TimeTest.cpp
+	$(CPP) -c TimeTest.cpp -o ./Dev_Debug/TimeTest.o $(CXXFLAGS)

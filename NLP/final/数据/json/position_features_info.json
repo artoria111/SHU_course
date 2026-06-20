@@ -1,0 +1,1559 @@
+[
+  {
+    "name": "Java开发工程师",
+    "requirements": "本科及以上学历，3-5年Java开发经验",
+    "salary_range": "15K-25K",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "Redis",
+      "微服务",
+      "Linux",
+      "Git",
+      "MyBatis",
+      "Docker"
+    ]
+  },
+  {
+    "name": "高级Java工程师",
+    "requirements": "本科及以上，5年以上Java经验，有团队管理经验",
+    "salary_range": "25K-40K",
+    "skills": [
+      "Java",
+      "Spring Cloud",
+      "Kafka",
+      "分布式系统",
+      "系统架构设计",
+      "MySQL",
+      "Redis",
+      "Docker",
+      "K8s",
+      "团队管理"
+    ]
+  },
+  {
+    "name": "前端开发工程师",
+    "requirements": "大专及以上，2年以上前端开发经验",
+    "salary_range": "12K-20K",
+    "skills": [
+      "JavaScript",
+      "Vue.js",
+      "React",
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "Webpack",
+      "Node.js",
+      "小程序开发"
+    ]
+  },
+  {
+    "name": "高级前端工程师",
+    "requirements": "本科及以上，4年以上前端经验",
+    "salary_range": "22K-35K",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Vue.js",
+      "TypeScript",
+      "Webpack",
+      "Node.js",
+      "前端架构",
+      "性能优化",
+      "微前端"
+    ]
+  },
+  {
+    "name": "Python开发工程师",
+    "requirements": "本科及以上，2年以上Python开发经验",
+    "salary_range": "14K-22K",
+    "skills": [
+      "Python",
+      "Django",
+      "Flask",
+      "MySQL",
+      "Redis",
+      "Docker",
+      "Linux",
+      "Celery",
+      "RESTful API"
+    ]
+  },
+  {
+    "name": "数据分析师",
+    "requirements": "本科及以上，统计学或计算机相关专业",
+    "salary_range": "12K-20K",
+    "skills": [
+      "Python",
+      "SQL",
+      "Excel",
+      "Tableau",
+      "Pandas",
+      "NumPy",
+      "数据可视化",
+      "统计学",
+      "机器学习基础"
+    ]
+  },
+  {
+    "name": "数据工程师",
+    "requirements": "本科及以上，3年以上数据开发经验",
+    "salary_range": "20K-35K",
+    "skills": [
+      "Hadoop",
+      "Spark",
+      "Flink",
+      "Kafka",
+      "Hive",
+      "Scala",
+      "Python",
+      "SQL",
+      "数据仓库",
+      "ETL"
+    ]
+  },
+  {
+    "name": "算法工程师",
+    "requirements": "硕士及以上，计算机/数学相关专业",
+    "salary_range": "25K-45K",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "机器学习",
+      "深度学习",
+      "NLP",
+      "推荐系统",
+      "数据挖掘",
+      "C++"
+    ]
+  },
+  {
+    "name": "产品经理",
+    "requirements": "本科及以上，2年以上互联网产品经验",
+    "salary_range": "15K-28K",
+    "skills": [
+      "需求分析",
+      "原型设计",
+      "Axure",
+      "数据分析",
+      "用户研究",
+      "竞品分析",
+      "项目管理",
+      "PRD撰写",
+      "敏捷开发"
+    ]
+  },
+  {
+    "name": "UI/UX设计师",
+    "requirements": "本科及以上，设计相关专业",
+    "salary_range": "12K-22K",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范",
+      "动效设计"
+    ]
+  },
+  {
+    "name": "DevOps工程师",
+    "requirements": "本科及以上，3年以上运维开发经验",
+    "salary_range": "18K-30K",
+    "skills": [
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "Ansible",
+      "Terraform",
+      "AWS",
+      "Prometheus",
+      "Shell",
+      "Python"
+    ]
+  },
+  {
+    "name": "测试工程师",
+    "requirements": "大专及以上，2年以上测试经验",
+    "salary_range": "10K-18K",
+    "skills": [
+      "自动化测试",
+      "Selenium",
+      "JMeter",
+      "Python",
+      "SQL",
+      "测试用例设计",
+      "接口测试",
+      "性能测试",
+      "Jenkins"
+    ]
+  },
+  {
+    "name": "Android开发工程师",
+    "requirements": "本科及以上，2年以上Android开发经验",
+    "salary_range": "15K-25K",
+    "skills": [
+      "Java",
+      "Kotlin",
+      "Android SDK",
+      "Jetpack",
+      "MVVM",
+      "RxJava",
+      "Retrofit",
+      "性能优化",
+      "Google Play"
+    ]
+  },
+  {
+    "name": "iOS开发工程师",
+    "requirements": "本科及以上，2年以上iOS开发经验",
+    "salary_range": "15K-25K",
+    "skills": [
+      "Swift",
+      "Objective-C",
+      "UIKit",
+      "SwiftUI",
+      "Combine",
+      "Core Data",
+      "App Store",
+      "性能优化"
+    ]
+  },
+  {
+    "name": "全栈开发工程师",
+    "requirements": "本科及以上，3年以上全栈开发经验",
+    "salary_range": "18K-30K",
+    "skills": [
+      "Java",
+      "Python",
+      "JavaScript",
+      "React",
+      "Vue.js",
+      "Spring Boot",
+      "MySQL",
+      "Redis",
+      "Docker",
+      "DevOps"
+    ]
+  },
+  {
+    "name": "技术总监",
+    "requirements": "本科及以上，8年以上技术经验，3年以上管理经验",
+    "salary_range": "40K-60K",
+    "skills": [
+      "系统架构",
+      "技术管理",
+      "团队建设",
+      "项目管理",
+      "Java",
+      "微服务",
+      "云计算",
+      "大数据",
+      "战略规划"
+    ]
+  },
+  {
+    "name": "网络安全工程师",
+    "requirements": "本科及以上，3年以上安全相关经验",
+    "salary_range": "18K-35K",
+    "skills": [
+      "渗透测试",
+      "安全审计",
+      "WAF",
+      "IDS/IPS",
+      "Python",
+      "Linux",
+      "网络协议",
+      "加密算法",
+      "等级保护"
+    ]
+  },
+  {
+    "name": "项目经理",
+    "requirements": "本科及以上，5年以上项目管理经验，PMP证书优先",
+    "salary_range": "18K-30K",
+    "skills": [
+      "项目管理",
+      "敏捷管理",
+      "Scrum",
+      "风险管理",
+      "成本控制",
+      "沟通协调",
+      "Jira",
+      "进度管理"
+    ]
+  },
+  {
+    "name": "运营经理",
+    "requirements": "本科及以上，3年以上互联网运营经验",
+    "salary_range": "15K-25K",
+    "skills": [
+      "用户运营",
+      "内容运营",
+      "数据分析",
+      "活动策划",
+      "Excel",
+      "SQL",
+      "社群运营",
+      "增长黑客"
+    ]
+  },
+  {
+    "name": "售前技术支持",
+    "requirements": "本科及以上，2年以上技术售前经验",
+    "salary_range": "12K-20K",
+    "skills": [
+      "技术方案设计",
+      "PPT制作",
+      "客户沟通",
+      "需求调研",
+      "招投标",
+      "云计算",
+      "网络基础",
+      "产品演示"
+    ]
+  },
+  {
+    "name": "区块链开发工程师",
+    "requirements": "本科及以上，2年以上区块链开发经验",
+    "salary_range": "20K-35K",
+    "skills": [
+      "Solidity",
+      "Go",
+      "Rust",
+      "智能合约",
+      "以太坊",
+      "Fabric",
+      "共识算法",
+      "加密算法",
+      "DeFi"
+    ]
+  },
+  {
+    "name": "人工智能研究员",
+    "requirements": "博士优先，研究方向与深度学习相关",
+    "salary_range": "35K-55K",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "大语言模型",
+      "多模态",
+      "论文发表",
+      "深度学习",
+      "强化学习",
+      "模型优化",
+      "Transformer"
+    ]
+  },
+  {
+    "name": "C++开发工程师",
+    "requirements": "本科及以上，3年以上C++开发经验",
+    "salary_range": "18K-30K",
+    "skills": [
+      "C++",
+      "STL",
+      "QT",
+      "多线程",
+      "网络编程",
+      "Linux",
+      "嵌入式开发",
+      "性能优化",
+      "设计模式"
+    ]
+  },
+  {
+    "name": "架构师",
+    "requirements": "本科及以上，8年以上开发经验，3年以上架构设计经验",
+    "salary_range": "35K-55K",
+    "skills": [
+      "系统架构设计",
+      "微服务",
+      "分布式系统",
+      "高并发",
+      "性能调优",
+      "Java",
+      "Go",
+      "K8s",
+      "Kafka",
+      "MySQL"
+    ]
+  },
+  {
+    "name": "游戏开发工程师",
+    "requirements": "本科及以上，2年以上游戏开发经验",
+    "salary_range": "15K-28K",
+    "skills": [
+      "Unity",
+      "Unreal Engine",
+      "C#",
+      "C++",
+      "3D渲染",
+      "游戏引擎",
+      "Lua",
+      "OpenGL",
+      "DirectX"
+    ]
+  },
+  {
+    "name": "嵌入式开发工程师",
+    "requirements": "本科及以上，2年以上嵌入式开发经验",
+    "salary_range": "14K-24K",
+    "skills": [
+      "C语言",
+      "ARM",
+      "Linux驱动",
+      "RTOS",
+      "单片机",
+      "I2C",
+      "SPI",
+      "PCB",
+      "电子电路"
+    ]
+  },
+  {
+    "name": "云计算工程师",
+    "requirements": "本科及以上，3年以上云计算相关经验",
+    "salary_range": "18K-32K",
+    "skills": [
+      "AWS",
+      "Azure",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "Linux",
+      "Python",
+      "CI/CD",
+      "微服务架构"
+    ]
+  },
+  {
+    "name": "市场营销经理",
+    "requirements": "本科及以上，3年以上市场营销经验",
+    "salary_range": "15K-25K",
+    "skills": [
+      "品牌策划",
+      "数字营销",
+      "SEO/SEM",
+      "内容营销",
+      "数据分析",
+      "市场调研",
+      "广告投放",
+      "社交媒体运营"
+    ]
+  },
+  {
+    "name": "数据库管理员",
+    "requirements": "本科及以上，3年以上DBA经验",
+    "salary_range": "18K-30K",
+    "skills": [
+      "MySQL",
+      "Oracle",
+      "SQL Server",
+      "数据库优化",
+      "备份恢复",
+      "高可用架构",
+      "Redis",
+      "MongoDB",
+      "Linux"
+    ]
+  },
+  {
+    "name": "Go开发工程师",
+    "requirements": "本科及以上，2年以上Go开发经验",
+    "salary_range": "18K-30K",
+    "skills": [
+      "Go",
+      "gRPC",
+      "Protobuf",
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Kafka",
+      "MySQL",
+      "微服务"
+    ]
+  },
+  {
+    "name": "轴承技术研发经理",
+    "requirements": "本科及以上，5-10年",
+    "salary_range": "20-40k",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "技术研发经理",
+    "requirements": "本科及以上，10年以上",
+    "salary_range": "15-18k·16薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "成套技术研发部经理",
+    "requirements": "本科及以上，5-10年",
+    "salary_range": "25-30k·15薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "机械技术研发经理",
+    "requirements": "大专及以上，10年以上",
+    "salary_range": "15-25k·13薪",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "废水废液研发室主任（技术研发部经理）",
+    "requirements": "本科及以上，6年以上，工作地点：天津",
+    "salary_range": "20-35k·15薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高压锅技术研发经理",
+    "requirements": "大专及以上，5-10年",
+    "salary_range": "18-30k",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "技术研发经理（拟上市）",
+    "requirements": "大专及以上，10年以上",
+    "salary_range": "15-25k·15薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "碳循环前沿技术研发经理",
+    "requirements": "硕士及以上，10年以上，工作地点：厦门",
+    "salary_range": "30-50k·18薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "产品技术研发经理（电动出行）",
+    "requirements": "学历不限及以上，5-10年",
+    "salary_range": "35-45k·15薪",
+    "skills": [
+      "需求分析",
+      "原型设计",
+      "Axure",
+      "Figma",
+      "数据分析",
+      "用户研究",
+      "PRD撰写",
+      "竞品分析",
+      "项目管理",
+      "敏捷开发"
+    ]
+  },
+  {
+    "name": "技术研发经理（汽车底盘件）",
+    "requirements": "大专及以上，10年以上",
+    "salary_range": "22-28k",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "机械技术研发经理（空压机、气悬浮压缩机）",
+    "requirements": "本科及以上，8年以上，工作地点：苏州",
+    "salary_range": "40-50k",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "变压器技术研发部副经理（油浸变压器）",
+    "requirements": "本科及以上，5年以上，工作地点：北京",
+    "salary_range": "15-20k·13薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "变压器技术研发部副经理",
+    "requirements": "本科及以上，5年以上，工作地点：北京",
+    "salary_range": "10-15k·13薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "变压器技术研发部经理",
+    "requirements": "本科及以上，5年以上，工作地点：北京",
+    "salary_range": "15-25k·13薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "技术研发部经理",
+    "requirements": "大专及以上，经验不限",
+    "salary_range": "12-18k",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "技术研发副总经理",
+    "requirements": "硕士及以上，5-10年",
+    "salary_range": "60-90k",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "海洋装备技术研发经理/副总工程师",
+    "requirements": "本科及以上，3-5年，工作地点：广州",
+    "salary_range": "30-35k",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "自动驾驶技术研发经理",
+    "requirements": "本科及以上，3-5年",
+    "salary_range": "30-60k",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "产品技术研发经理-欧洲粉末涂料厂商",
+    "requirements": "本科及以上，5-10年，工作地点：苏州",
+    "salary_range": "20-35k·15薪",
+    "skills": [
+      "需求分析",
+      "原型设计",
+      "Axure",
+      "Figma",
+      "数据分析",
+      "用户研究",
+      "PRD撰写",
+      "竞品分析",
+      "项目管理",
+      "敏捷开发"
+    ]
+  },
+  {
+    "name": "技术研发经理（制冷、除湿机或空调行业）",
+    "requirements": "本科及以上，5-10年",
+    "salary_range": "20-30k",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "技术研发副总经理（海洋机器人）",
+    "requirements": "硕士及以上，10年以上，工作地点：杭州",
+    "salary_range": "60-90k·14薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "绿色制造技术研发经理--零碳改造及产业升级方向",
+    "requirements": "硕士及以上，5-10年，工作地点：厦门",
+    "salary_range": "30-40k·18薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "分子诊断产品经理",
+    "requirements": "学历不限及以上，经验不限，工作地点：上海",
+    "salary_range": "18-22k·25薪",
+    "skills": [
+      "需求分析",
+      "原型设计",
+      "Axure",
+      "Figma",
+      "数据分析",
+      "用户研究",
+      "PRD撰写",
+      "竞品分析",
+      "项目管理",
+      "敏捷开发"
+    ]
+  },
+  {
+    "name": "分子构建与细胞工程工程师",
+    "requirements": "硕士及以上，2年以上",
+    "salary_range": "25-40k",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "高分子材料研发工程师",
+    "requirements": "本科及以上，3-5年",
+    "salary_range": "6-10k",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "高分子材料顾问",
+    "requirements": "硕士及以上，5-10年",
+    "salary_range": "8-15k",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "分子生物技术员",
+    "requirements": "大专及以上，经验不限，工作地点：北京",
+    "salary_range": "13-18k",
+    "skills": [
+      "PCR",
+      "细胞培养",
+      "分子生物学",
+      "蛋白质纯化",
+      "基因编辑"
+    ]
+  },
+  {
+    "name": "高分子检测工程师",
+    "requirements": "本科及以上，3-5年，工作地点：上海",
+    "salary_range": "9-15k",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "高分子销售经理",
+    "requirements": "大专及以上，5-10年",
+    "salary_range": "25-40k",
+    "skills": [
+      "客户开发",
+      "商务谈判",
+      "CRM",
+      "销售管理",
+      "市场分析",
+      "合同管理"
+    ]
+  },
+  {
+    "name": "改性高分子研发经理",
+    "requirements": "本科及以上，5年以上",
+    "salary_range": "25-35k·13薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高分子博士（橡胶方向）",
+    "requirements": "博士及以上，经验不限",
+    "salary_range": "25-50k·13薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高分子检测实验室负责人",
+    "requirements": "本科及以上，3年以上，工作地点：上海",
+    "salary_range": "20-30k·14薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高分子材料研发专家/主任工程师",
+    "requirements": "硕士及以上，3年以上，工作地点：厦门",
+    "salary_range": "18-30k",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "高分子博士",
+    "requirements": "博士及以上，5-10年",
+    "salary_range": "40-70k·13薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高分子材料市场研发与技术支持",
+    "requirements": "本科及以上，经验不限",
+    "salary_range": "8-10k",
+    "skills": [
+      "品牌策划",
+      "数字营销",
+      "SEO/SEM",
+      "内容营销",
+      "数据分析",
+      "市场调研",
+      "广告投放",
+      "社交媒体运营"
+    ]
+  },
+  {
+    "name": "高分子材料工程师",
+    "requirements": "学历不限及以上，经验不限",
+    "salary_range": "35-55k",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "大客户销售（金属、高分子材料检测）",
+    "requirements": "大专及以上，3-5年，工作地点：重庆",
+    "salary_range": "15-30k",
+    "skills": [
+      "客户开发",
+      "商务谈判",
+      "CRM",
+      "销售管理",
+      "市场分析",
+      "合同管理"
+    ]
+  },
+  {
+    "name": "高分子材料方向博士",
+    "requirements": "博士及以上，1-3年",
+    "salary_range": "26-40k",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高分子材料工程师（PTFE）",
+    "requirements": "本科及以上，5-10年",
+    "salary_range": "20-40k",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "生产技术经理（硬质密封制品，高分子材料行业）",
+    "requirements": "大专及以上，5-10年",
+    "salary_range": "12-17k",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高分子材料研发工程师（塑料方向）",
+    "requirements": "本科及以上，1-3年",
+    "salary_range": "8-10k",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "高分子合成研发工程师（自由基聚合）",
+    "requirements": "硕士及以上，2-7年",
+    "salary_range": "20-25k·13薪",
+    "skills": [
+      "编程能力",
+      "问题解决",
+      "团队协作",
+      "沟通能力",
+      "Linux",
+      "Git"
+    ]
+  },
+  {
+    "name": "分子公司总经理",
+    "requirements": "本科及以上，10年以上",
+    "salary_range": "30-50k",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "韩企韩语（高分子材料/有机化学/电子PCB）",
+    "requirements": "本科及以上，1-3年，工作地点：苏州",
+    "salary_range": "11-15k·13薪",
+    "skills": [
+      "Verilog",
+      "VHDL",
+      "FPGA",
+      "PCB设计",
+      "电子电路",
+      "嵌入式开发",
+      "ARM"
+    ]
+  },
+  {
+    "name": "机械设计高级经理（非标自动化设备）",
+    "requirements": "大专及以上，8年以上",
+    "salary_range": "35-45k·13薪",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械设计高级经理-高尔夫球车",
+    "requirements": "本科及以上，8年以上",
+    "salary_range": "20-40k",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械设计高级经理",
+    "requirements": "本科及以上，10年以上，工作地点：苏州",
+    "salary_range": "25-40k",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械设计专家/经理/高级经理",
+    "requirements": "硕士及以上，3年以上",
+    "salary_range": "65-75k",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "客户运营高级经理-游戏",
+    "requirements": "本科及以上，3年以上，工作地点：广州",
+    "salary_range": "20-40k·15薪",
+    "skills": [
+      "Unity",
+      "Unreal Engine",
+      "C#",
+      "C++",
+      "3D渲染",
+      "游戏引擎",
+      "Lua",
+      "OpenGL"
+    ]
+  },
+  {
+    "name": "非标机械设计",
+    "requirements": "本科及以上，3-5年",
+    "salary_range": "12-20k·14薪",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "酒会邀约高级经理",
+    "requirements": "大专及以上，2年以上，工作地点：武汉",
+    "salary_range": "15-40k",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "机械设计工程师",
+    "requirements": "本科及以上，3年以上",
+    "salary_range": "10-18k·13薪",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "事业开发高级经理",
+    "requirements": "本科及以上，5-10年",
+    "salary_range": "30-50k",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "工艺高级经理/总监",
+    "requirements": "本科及以上，5年以上，工作地点：苏州",
+    "salary_range": "25-40k",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "ILM",
+    "requirements": "本科及以上，3-5年",
+    "salary_range": "面议",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "车辆机械设计工程师",
+    "requirements": "大专及以上，经验不限",
+    "salary_range": "6-8k·13薪",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "总部零售管理负责人（高级经理/总监）",
+    "requirements": "本科及以上，5-10年，工作地点：南京",
+    "salary_range": "20-35k·18薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "总部渠道管理负责人（高级经理/总监）",
+    "requirements": "本科及以上，5-10年，工作地点：南京",
+    "salary_range": "20-40k·18薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "总部GTM负责人（高级经理/总监）",
+    "requirements": "本科及以上，5-10年",
+    "salary_range": "20-40k·18薪",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "机械设计总工程师",
+    "requirements": "硕士及以上，8年以上",
+    "salary_range": "25-40k·13薪",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "Mechanical",
+    "requirements": "本科及以上，3-5年",
+    "salary_range": "面议",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "注册经理/高级经理",
+    "requirements": "本科及以上，5-10年",
+    "salary_range": "面议",
+    "skills": [
+      "沟通能力",
+      "团队协作",
+      "问题解决",
+      "学习能力"
+    ]
+  },
+  {
+    "name": "高级机械工程师/电镀线龙门线水平线经验均可",
+    "requirements": "大专及以上，5-10年",
+    "salary_range": "15-30k",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "龙门铣机床机械设计工程师",
+    "requirements": "本科及以上，3-5年",
+    "salary_range": "15-25k",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械设计工程师【龙门】",
+    "requirements": "大专及以上，2-10年",
+    "salary_range": "15-30k·13薪",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械工程师-龙门/落地镗/立车-大型",
+    "requirements": "大专及以上，5-10年",
+    "salary_range": "18-25k·13薪",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "重型数控龙门镗铣加工中心机械结构高级工程师",
+    "requirements": "本科及以上，5-10年",
+    "salary_range": "28-40k",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "空气悬架CATIA机械工程师",
+    "requirements": "本科及以上，5-10年",
+    "salary_range": "面议",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "关节机械结构工程师",
+    "requirements": "本科及以上，3年以上，工作地点：苏州",
+    "salary_range": "15-45k",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械工程师",
+    "requirements": "硕士及以上，3-5年，工作地点：北京",
+    "salary_range": "20-30k",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械结构工程师",
+    "requirements": "本科及以上，3年以上",
+    "salary_range": "10-20k",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械研发工程师（机器人行业）(J11430)",
+    "requirements": "本科及以上，5年以上，工作地点：南京",
+    "salary_range": "25-40k·13薪",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械设备管理工程师",
+    "requirements": "大专及以上，3年以上",
+    "salary_range": "12-20k",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械手研发工程师(J10170)",
+    "requirements": "本科及以上，3年以上",
+    "salary_range": "15-25k·15薪",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "非标机械设计工程师",
+    "requirements": "本科及以上，3年以上",
+    "salary_range": "10-15k",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "机械结构工程师(A246939)",
+    "requirements": "本科及以上，5-10年，工作地点：上海",
+    "salary_range": "25-50k·15薪",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械设备工程师（选矿厂）",
+    "requirements": "学历不限及以上，10年以上",
+    "salary_range": "22-30k",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械工程师（灵巧手）",
+    "requirements": "本科及以上，2年以上，工作地点：上海",
+    "salary_range": "15-25k·15薪",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "资深机械工程师",
+    "requirements": "本科及以上，5-10年，工作地点：上海",
+    "salary_range": "15-25k",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械设备工程师",
+    "requirements": "大专及以上，3年以上",
+    "salary_range": "12-15k",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "高级机械工程师",
+    "requirements": "大专及以上，3年以上，工作地点：广州",
+    "salary_range": "6-10k",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械工程师（半导体-合肥）",
+    "requirements": "硕士及以上，3年以上",
+    "salary_range": "25-50k",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械结构设计工程师（大专及以上）",
+    "requirements": "大专及以上，5-10年，工作地点：杭州",
+    "salary_range": "8-15k",
+    "skills": [
+      "Figma",
+      "Sketch",
+      "Photoshop",
+      "Illustrator",
+      "用户研究",
+      "交互设计",
+      "视觉设计",
+      "设计规范"
+    ]
+  },
+  {
+    "name": "高级/机械工程师",
+    "requirements": "本科及以上，经验不限",
+    "salary_range": "13-23k",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  },
+  {
+    "name": "机械装配工程师",
+    "requirements": "中专/中技及以上，1-3年",
+    "salary_range": "6-10k",
+    "skills": [
+      "SolidWorks",
+      "AutoCAD",
+      "Pro/E",
+      "有限元分析",
+      "机械设计",
+      "UG/NX"
+    ]
+  }
+]

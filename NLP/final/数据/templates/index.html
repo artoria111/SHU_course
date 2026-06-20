@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>智能招聘匹配系统</title>
+<style>
+:root {
+    --primary: #4f46e5;
+    --primary-light: #6366f1;
+    --primary-dark: #3730a3;
+    --accent: #06b6d4;
+    --bg: #f8fafc;
+    --sidebar-bg: #1e1b4b;
+    --card: #ffffff;
+    --border: #e2e8f0;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --user-bubble: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+    --bot-bubble: #f1f5f9;
+    --danger: #ef4444;
+    --success: #10b981;
+    --warning: #f59e0b;
+    --radius: 16px;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,.05);
+    --shadow: 0 4px 6px -1px rgba(0,0,0,.07), 0 2px 4px -2px rgba(0,0,0,.05);
+    --shadow-lg: 0 10px 25px -5px rgba(0,0,0,.1), 0 4px 10px -6px rgba(0,0,0,.05);
+    --transition: 0.2s cubic-bezier(.4,0,.2,1);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    background: var(--bg);
+    height: 100vh;
+    display: flex;
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ====== 侧边栏 - DeepSeek 风格 ====== */
+.sidebar {
+    width: 280px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-shrink: 0;
+    border-right: 1px solid #e9eef3;
+    box-shadow: none;
+}
+
+.sidebar-header {
+    padding: 24px 20px 16px;
+    border-bottom: 1px solid #f0f2f5;
+}
+.sidebar-header h1 {
+    color: #0f1825;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin: 0;
+}
+.sidebar-header p {
+    color: #5f6c84;
+    font-size: 0.75rem;
+    margin-top: 6px;
+}
+
+/* 新建对话按钮 */
+.new-chat-btn {
+    margin: 16px 16px 12px;
+    padding: 10px 16px;
+    background: #ffffff;
+    color: #0f1825;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s ease;
+    backdrop-filter: none;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+}
+.new-chat-btn:hover {
+    background: #f8fafc;
+    border-color: #cbd5e1;
+    transform: translateY(-1px);
+}
+.new-chat-btn .icon {
+    font-size: 1.2rem;
+}
+
+/* 会话列表容器 */
+.session-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 8px 12px;
+    list-style: none;
+}
+.session-list::-webkit-scrollbar {
+    width: 4px;
+}
+.session-list::-webkit-scrollbar-thumb {
+    background: #e2e8f0;
+    border-radius: 4px;
+}
+
+/* 单个会话项 */
+.session-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    margin: 4px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #1e293b;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+    gap: 8px;
+    position: relative;
+}
+.session-item:hover {
+    background: #f1f5f9;
+}
+/* 选中状态：浅蓝底 + 左侧亮条 */
+.session-item.active {
+    background: #eef2ff;
+    color: #1e293b;
+    font-weight: 500;
+    position: relative;
+}
+.session-item.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20%;
+    height: 60%;
+    width: 3px;
+    background: #4f46e5;
+    border-radius: 0 2px 2px 0;
+}
+
+.session-item .title {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 删除按钮 */
+.session-item .delete-btn {
+    opacity: 0;
+    width: 26px;
+    height: 26px;
+    border-radius: 8px;
+    border: none;
+    background: #f1f5f9;
+    color: #5f6c84;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    flex-shrink: 0;
+}
+.session-item:hover .delete-btn {
+    opacity: 1;
+}
+.session-item .delete-btn:hover {
+    background: #fee2e2;
+    color: #dc2626;
+}
+/* ====== 主区域 ====== */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-width: 0;
+}
+
+/* 顶栏 */
+.topbar {
+    padding: 16px 28px;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+.topbar .logo {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1rem;
+}
+.topbar .title { font-weight: 700; font-size: 1.05rem; }
+.topbar .badge {
+    font-size: .7rem;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: #eef2ff;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* 聊天区域 */
+.chat-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 24px 28px;
+    scroll-behavior: smooth;
+}
+.chat-container::-webkit-scrollbar { width: 6px; }
+.chat-container::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+
+/* 空状态 */
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--text-muted);
+    text-align: center;
+    gap: 12px;
+}
+.empty-state .icon { font-size: 3.5rem; opacity: .6; }
+.empty-state h3 { font-size: 1.2rem; color: var(--text); }
+.empty-state p { font-size: .9rem; max-width: 360px; line-height: 1.6; }
+.empty-state .hint-tags { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-top: 8px; }
+.empty-state .hint-tag {
+    padding: 6px 14px;
+    border-radius: 20px;
+    background: #eef2ff;
+    color: var(--primary);
+    font-size: .8rem;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+.empty-state .hint-tag:hover { background: #dde4ff; transform: translateY(-1px); }
+
+/* 消息 */
+.message {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    display: flex;
+    gap: 14px;
+    animation: fadeIn .3s ease;
+}
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+.message.user { flex-direction: row-reverse; }
+
+.avatar {
+    width: 38px; height: 38px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+}
+.message.user .avatar { background: linear-gradient(135deg, #4f46e5, #7c3aed); }
+.message.assistant .avatar { background: linear-gradient(135deg, #06b6d4, #10b981); }
+
+.bubble {
+    max-width: 78%;
+    padding: 14px 18px;
+    border-radius: var(--radius);
+    line-height: 1.7;
+    font-size: .95rem;
+    box-shadow: var(--shadow-sm);
+}
+.message.user .bubble {
+    background: var(--user-bubble);
+    color: #fff;
+    border-bottom-right-radius: 4px;
+}
+.message.assistant .bubble {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-bottom-left-radius: 4px;
+    box-shadow: var(--shadow);
+}
+
+/* 气泡内Markdown样式 */
+.bubble strong { color: inherit; font-weight: 700; }
+.message.assistant .bubble strong { color: var(--primary); }
+.bubble em { opacity: .85; }
+.bubble .highlight { background: #fef3c7; padding: 1px 4px; border-radius: 3px; font-weight: 600; }
+
+/* 加载动画 */
+.typing-indicator { display: flex; gap: 5px; padding: 4px 0; }
+.typing-indicator span {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--primary-light);
+    animation: bounce 1.4s infinite ease-in-out both;
+}
+.typing-indicator span:nth-child(1) { animation-delay: -.32s; }
+.typing-indicator span:nth-child(2) { animation-delay: -.16s; }
+@keyframes bounce { 0%,80%,100% { transform: scale(0); } 40% { transform: scale(1); } }
+
+/* 输入区 */
+.input-area {
+    padding: 16px 28px 20px;
+    background: var(--card);
+    border-top: 1px solid var(--border);
+    flex-shrink: 0;
+}
+.input-wrapper {
+    max-width: 800px; margin: 0 auto;
+    display: flex; gap: 10px;
+    align-items: flex-end;
+    background: #f8fafc;
+    border: 2px solid var(--border);
+    border-radius: 16px;
+    padding: 8px 8px 8px 18px;
+    transition: border-color var(--transition), box-shadow var(--transition);
+}
+.input-wrapper:focus-within {
+    border-color: var(--primary-light);
+    box-shadow: 0 0 0 4px rgba(99,102,241,.1);
+}
+.input-text {
+    flex: 1; border: none; background: transparent;
+    font-size: .95rem; line-height: 1.5;
+    resize: none; outline: none;
+    max-height: 150px; min-height: 28px;
+    font-family: inherit;
+}
+.input-text::placeholder { color: #94a3b8; }
+.send-btn {
+    width: 42px; height: 42px;
+    border: none; border-radius: 12px;
+    background: var(--primary);
+    color: #fff; cursor: pointer;
+    font-size: 1.2rem;
+    display: flex; align-items: center; justify-content: center;
+    transition: all var(--transition);
+    flex-shrink: 0;
+}
+.send-btn:hover { background: var(--primary-dark); transform: scale(1.05); }
+.send-btn:disabled { background: #cbd5e1; cursor: not-allowed; transform: none; }
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .sidebar { width: 240px; }
+    .chat-container { padding: 16px; }
+    .bubble { max-width: 90%; }
+}
+/* 自定义确认弹窗 */
+.modal-overlay {
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,.5); z-index: 999;
+    display: flex; align-items: center; justify-content: center;
+    animation: fadeIn .2s ease;
+}
+.modal-box {
+    background: #fff; border-radius: 16px; padding: 28px 32px;
+    max-width: 400px; width: 90%; box-shadow: 0 20px 60px rgba(0,0,0,.3);
+    text-align: center; animation: slideUp .25s ease;
+}
+@keyframes slideUp { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.modal-box h3 { margin: 0 0 8px; font-size: 1.1rem; color: #1e293b; }
+.modal-box p { margin: 0 0 24px; font-size: .9rem; color: #64748b; line-height: 1.6; }
+.modal-buttons { display: flex; gap: 12px; justify-content: center; }
+.modal-buttons button {
+    padding: 10px 28px; border-radius: 10px; border: none; cursor: pointer;
+    font-size: .9rem; font-weight: 600; transition: all .2s;
+}
+.modal-btn-cancel { background: #f1f5f9; color: #64748b; }
+.modal-btn-cancel:hover { background: #e2e8f0; }
+.modal-btn-danger { background: #ef4444; color: #fff; }
+.modal-btn-danger:hover { background: #dc2626; transform: scale(1.03); }
+</style>
+</head>
+<body>
+
+<!-- 侧边栏 -->
+<div class="sidebar">
+    <div class="sidebar-header">
+        <h1>💼 智能招聘助手</h1>
+        <p>AI-Powered Job Matching</p>
+    </div>
+    <button class="new-chat-btn" onclick="createNewSession()">
+        <span class="icon">＋</span> 新建对话
+    </button>
+    <ul class="session-list" id="sessionList"></ul>
+</div>
+
+<!-- 主区域 -->
+<div class="main-content">
+    <div class="topbar">
+        <div class="logo">💼</div>
+        <span class="title">智能招聘匹配系统</span>
+        <span class="badge">NLP 驱动</span>
+    </div>
+
+    <div class="chat-container" id="chatContainer">
+        <div class="empty-state" id="emptyState">
+            <div class="icon">🎯</div>
+            <h3>开始您的求职之旅</h3>
+            <p>描述您的技能、经验和期望，AI 将为您智能匹配最合适的职位</p>
+            <div class="hint-tags">
+                <span class="hint-tag" onclick="fillExample('我做了3年Java开发，熟悉Spring Boot和MySQL，本科学历，想在杭州找工作')">Java开发</span>
+                <span class="hint-tag" onclick="fillExample('我是前端工程师，精通React和TypeScript，2年经验，期望15K-20K')">前端开发</span>
+                <span class="hint-tag" onclick="fillExample('会Python和PyTorch，做过推荐系统项目，硕士学历，找算法工程师岗位')">算法工程师</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="input-area">
+        <div class="input-wrapper">
+            <textarea class="input-text" placeholder="描述您的技能、经验、求职意向..."
+                id="messageInput" rows="1"
+                oninput="autoResize(this)"
+                onkeydown="handleKeyDown(event)"></textarea>
+            <button class="send-btn" id="sendBtn" onclick="sendMessage()">↵</button>
+        </div>
+    </div>
+</div>
+
+<script>
+let currentSessionId = null;
+let assistantBubble = null;
+let isSending = false;
+
+document.addEventListener('DOMContentLoaded', async () => {
+    await loadSessions();
+    // 不再自动创建会话，保持空状态封面。用户发送消息时自动创建
+});
+
+function autoResize(el) { el.style.height = 'auto'; el.style.height = Math.min(el.scrollHeight, 150) + 'px'; }
+
+function handleKeyDown(e) {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
+}
+
+function fillExample(text) {
+    document.getElementById('messageInput').value = text;
+    autoResize(document.getElementById('messageInput'));
+}
+
+async function createNewSession() {
+    const r = await fetch('/api/chat_sessions', {
+        method: 'POST', headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({title: '新的对话'})
+    });
+    const s = await r.json();
+    await loadSessions();
+    selectSession(s.id);
+}
+
+async function loadSessions() {
+    const r = await fetch('/api/chat_sessions');
+    const sessions = await r.json();
+    document.getElementById('sessionList').innerHTML = sessions.map(s => `
+        <li class="session-item ${s.id === currentSessionId ? 'active' : ''}">
+            <span class="title" onclick="selectSession(${s.id})">${escapeHtml(s.title)}</span>
+            <button class="delete-btn" onclick="event.stopPropagation(); deleteSession(${s.id})">×</button>
+        </li>
+    `).join('');
+}
+
+async function selectSession(id) {
+    currentSessionId = id;
+    await loadSessions();
+    document.getElementById('messageInput').value = '';
+    const r = await fetch(`/api/chat_messages/${id}`);
+    const msgs = await r.json();
+    const container = document.getElementById('chatContainer');
+    const empty = document.getElementById('emptyState');
+    if (empty && msgs.length > 0) empty.style.display = 'none';
+
+    container.innerHTML = msgs.length === 0 ? '' : msgs.map(m => `
+        <div class="message ${m.role}">
+            <div class="avatar">${m.role === 'user' ? '👤' : '🤖'}</div>
+            <div class="bubble">${formatContent(m.content)}</div>
+        </div>
+    `).join('');
+
+    if (msgs.length > 0 && empty) empty.style.display = 'none';
+    container.scrollTop = container.scrollHeight;
+}
+
+function formatContent(text) {
+    // 转义HTML，但保留 <br>
+    let html = escapeHtml(text);
+    // Markdown: **粗体**
+    html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    // 换行
+    html = html.replace(/\n/g, '<br>');
+    // 标记高亮匹配度数字
+    html = html.replace(/(\d{1,3}%)/g, '<span class="highlight">$1</span>');
+    return html;
+}
+
+function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+}
+
+async function sendMessage() {
+    if (isSending) return;
+    // 没有活跃会话时自动创建一个
+    if (!currentSessionId) {
+        const r = await fetch('/api/chat_sessions', {
+            method: 'POST', headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({title: '新的对话'})
+        });
+        const s = await r.json();
+        currentSessionId = s.id;
+        await loadSessions();
+    }
+    const input = document.getElementById('messageInput');
+    const msg = input.value.trim();
+    if (!msg) return;
+
+    isSending = true;
+    input.disabled = true;
+    document.getElementById('sendBtn').disabled = true;
+
+    // 隐藏空状态
+    const empty = document.getElementById('emptyState');
+    if (empty) empty.style.display = 'none';
+
+    addMessage('user', msg);
+    input.value = ''; autoResize(input);
+
+    // 占位
+    const placeholder = addMessage('assistant', '<div class="typing-indicator"><span></span><span></span><span></span></div>');
+
+    try {
+        const r = await fetch(`/stream/${currentSessionId}`, {
+            method: 'POST', headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({message: msg})
+        });
+        if (!r.ok) throw new Error('网络错误');
+        const data = await r.json();
+        updateBubble(placeholder, data.content || '⚠️ 未收到回复');
+    } catch (e) {
+        updateBubble(placeholder, '⚠️ 请求失败，请稍后重试');
+    } finally {
+        input.disabled = false;
+        document.getElementById('sendBtn').disabled = false;
+        input.focus();
+        isSending = false;
+    }
+}
+
+function addMessage(role, content) {
+    const container = document.getElementById('chatContainer');
+    const div = document.createElement('div');
+    div.className = `message ${role}`;
+    div.innerHTML = `
+        <div class="avatar">${role === 'user' ? '👤' : '🤖'}</div>
+        <div class="bubble">${role === 'user' ? escapeHtml(content) : content}</div>
+    `;
+    container.appendChild(div);
+    container.scrollTop = container.scrollHeight;
+    return div.querySelector('.bubble');
+}
+
+function updateBubble(bubble, content) {
+    if (bubble) {
+        bubble.innerHTML = formatContent(content);
+        bubble.closest('.chat-container')?.scrollTo({top: bubble.closest('.chat-container').scrollHeight, behavior: 'smooth'});
+    }
+}
+
+async function deleteSession(id) {
+    const ok = await showConfirm('确认删除', '删除后对话记录将无法恢复，确认删除此会话吗？');
+    if (!ok) return;
+    const r = await fetch(`/api/chat_sessions/${id}`, {method: 'DELETE'});
+    if (r.ok) {
+        if (currentSessionId === id) {
+            currentSessionId = null;
+            document.getElementById('chatContainer').innerHTML = '';
+            const empty = document.getElementById('emptyState');
+            if (empty) empty.style.display = 'flex';
+        }
+        await loadSessions();
+    }
+}
+</script>
+<!-- 自定义确认弹窗 -->
+<div id="confirmModal" class="modal-overlay" style="display:none">
+    <div class="modal-box">
+        <h3 id="confirmTitle">确认操作</h3>
+        <p id="confirmMsg">确定要执行此操作吗？</p>
+        <div class="modal-buttons">
+            <button class="modal-btn-cancel" onclick="resolveConfirm(false)">取消</button>
+            <button class="modal-btn-danger" id="confirmDangerBtn" onclick="resolveConfirm(true)">确认删除</button>
+        </div>
+    </div>
+</div>
+
+<script>
+let confirmResolver = null;
+function showConfirm(title, msg) {
+    return new Promise(resolve => {
+        confirmResolver = resolve;
+        document.getElementById('confirmTitle').textContent = title;
+        document.getElementById('confirmMsg').textContent = msg;
+        document.getElementById('confirmModal').style.display = 'flex';
+    });
+}
+function resolveConfirm(value) {
+    document.getElementById('confirmModal').style.display = 'none';
+    if (confirmResolver) { confirmResolver(value); confirmResolver = null; }
+}
+</script>
+</body>
+</html>

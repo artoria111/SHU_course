@@ -1,0 +1,26 @@
+struct goods {
+	goods* nxtgoods;
+	long long goodsid;
+	string name;
+	string description;
+	double price;
+	long long pieces;
+	long long sellerid;
+};//商品编号、商品名称、商品描述、商品价格、商品件数、售卖商家编号(就一个)。
+
+struct seller {
+	seller* nxtgoods;
+	long long sellerid;
+	string name;
+	string contact;  //联系方式
+	int goods_cnt;
+	vector<long long> goodsids; //所有的商品编号
+};//卖家编号、姓名、联系方式、售卖的商品编号(一个或者多个，多个以逗号分割)
+
+struct buyer {
+	buyer* nxtgoods;
+	string buyerid;
+	string name;
+	int goods_cnt;
+	vector<long long> goodsids; //所有的商品编号
+};//买家编号、姓名、购买商品的编号(一个或者多个，多个以逗号分割)。

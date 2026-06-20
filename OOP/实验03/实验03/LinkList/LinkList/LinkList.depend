@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1627451115 source:c:\users\qli\desktop\面向对象程序设计a(08305138)\实验03\linklist\linklist\addressbook.cpp
+	"LinkList.h"
+	<iomanip>
+	<cstring>
+	<string>
+	<conio.h>
+
+1627451839 c:\users\qli\desktop\面向对象程序设计a(08305138)\实验03\linklist\linklist\linklist.h
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1627440892 source:c:\users\qli\desktop\面向对象程序设计a(08305138)\实验03\linklist\linklist\banking.cpp
+	"Banking.h"
+	<iomanip>
+
+1598527882 c:\users\qli\desktop\面向对象程序设计a(08305138)\实验03\linklist\linklist\banking.h
+	"LinkList.h"
+	<iomanip>
+
+1627440892 source:c:\users\qli\desktop\面向对象程序设计a(08305138)\实验03\linklist\linklist\bankingtest.cpp
+	"LinkList.h"
+	"Banking.h"
+	<conio.h>
+
+1627447124 source:c:\users\qli\desktop\面向对象程序设计a(08305138)\实验03\linklist\linklist\main.cpp
+	"LinkList.h"
+	<cstring>
+	<conio.h>
+
+1627448413 source:c:\users\qli\desktop\面向对象程序设计a(08305138)\实验03\linklist\linklist\test.cpp
+	"LinkList.h"
+	<cstring>
+	<conio.h>
+

@@ -1,0 +1,39 @@
+# Project: ÏîÄ¿ 3
+# Makefile created by Dev-C++ 5.16
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+RES      = C-string_private.res
+OBJ      = C-String.o Main.o SortStrings.o $(RES)
+LINKOBJ  = C-String.o Main.o SortStrings.o $(RES)
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libstdc++ -static-libgcc -g3
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"
+BIN      = C-string.exe
+CXXFLAGS = $(CXXINCS) -Wextra -pipe -g3
+CFLAGS   = $(INCS) -Wextra -pipe -g3
+RM       = del /q
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+C-String.o: C-String.cpp
+	$(CPP) -c C-String.cpp -o C-String.o $(CXXFLAGS)
+
+Main.o: Main.cpp
+	$(CPP) -c Main.cpp -o Main.o $(CXXFLAGS)
+
+SortStrings.o: SortStrings.cpp
+	$(CPP) -c SortStrings.cpp -o SortStrings.o $(CXXFLAGS)
+
+C-string_private.res: C-string_private.rc 
+	$(WINDRES) -i C-string_private.rc --input-format=rc -o C-string_private.res -O coff 
+

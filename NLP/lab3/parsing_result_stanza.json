@@ -1,0 +1,1700 @@
+[
+    {
+        "id": 0,
+        "text": "大多数人每天在手机上所用时间为一到四个小时",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "大多数",
+                "pos": "ADJ",
+                "head": 2,
+                "deprel": "amod"
+            },
+            {
+                "id": 2,
+                "word": "人",
+                "pos": "NOUN",
+                "head": 15,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 3,
+                "word": "每天",
+                "pos": "DET",
+                "head": 15,
+                "deprel": "nmod:tmod"
+            },
+            {
+                "id": 4,
+                "word": "在",
+                "pos": "ADP",
+                "head": 5,
+                "deprel": "case"
+            },
+            {
+                "id": 5,
+                "word": "手机",
+                "pos": "NOUN",
+                "head": 9,
+                "deprel": "nmod"
+            },
+            {
+                "id": 6,
+                "word": "上",
+                "pos": "ADP",
+                "head": 5,
+                "deprel": "case"
+            },
+            {
+                "id": 7,
+                "word": "所",
+                "pos": "SCONJ",
+                "head": 8,
+                "deprel": "mark"
+            },
+            {
+                "id": 8,
+                "word": "用",
+                "pos": "VERB",
+                "head": 9,
+                "deprel": "amod"
+            },
+            {
+                "id": 9,
+                "word": "时间",
+                "pos": "NOUN",
+                "head": 15,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 10,
+                "word": "为",
+                "pos": "AUX",
+                "head": 15,
+                "deprel": "cop"
+            },
+            {
+                "id": 11,
+                "word": "一",
+                "pos": "NUM",
+                "head": 15,
+                "deprel": "nummod"
+            },
+            {
+                "id": 12,
+                "word": "到",
+                "pos": "CCONJ",
+                "head": 13,
+                "deprel": "cc"
+            },
+            {
+                "id": 13,
+                "word": "四",
+                "pos": "NUM",
+                "head": 11,
+                "deprel": "conj"
+            },
+            {
+                "id": 14,
+                "word": "个",
+                "pos": "NOUN",
+                "head": 13,
+                "deprel": "clf"
+            },
+            {
+                "id": 15,
+                "word": "小时",
+                "pos": "NOUN",
+                "head": 0,
+                "deprel": "root"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "text": "这不是少数人的问题",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "这",
+                "pos": "PRON",
+                "head": 6,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 2,
+                "word": "不是",
+                "pos": "AUX",
+                "head": 6,
+                "deprel": "cop"
+            },
+            {
+                "id": 3,
+                "word": "少数",
+                "pos": "ADJ",
+                "head": 4,
+                "deprel": "amod"
+            },
+            {
+                "id": 4,
+                "word": "人",
+                "pos": "NOUN",
+                "head": 6,
+                "deprel": "nmod"
+            },
+            {
+                "id": 5,
+                "word": "的",
+                "pos": "PART",
+                "head": 4,
+                "deprel": "case"
+            },
+            {
+                "id": 6,
+                "word": "问题",
+                "pos": "NOUN",
+                "head": 0,
+                "deprel": "root"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "我们把自己清醒时间的四分之一都用在了手机上多过其他任何日常活动",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "我们",
+                "pos": "PRON",
+                "head": 14,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 2,
+                "word": "把",
+                "pos": "ADP",
+                "head": 7,
+                "deprel": "case"
+            },
+            {
+                "id": 3,
+                "word": "自己",
+                "pos": "PRON",
+                "head": 5,
+                "deprel": "nmod"
+            },
+            {
+                "id": 4,
+                "word": "清醒",
+                "pos": "ADJ",
+                "head": 5,
+                "deprel": "amod"
+            },
+            {
+                "id": 5,
+                "word": "时间",
+                "pos": "NOUN",
+                "head": 7,
+                "deprel": "nmod"
+            },
+            {
+                "id": 6,
+                "word": "的",
+                "pos": "PART",
+                "head": 5,
+                "deprel": "case"
+            },
+            {
+                "id": 7,
+                "word": "四分之一",
+                "pos": "NUM",
+                "head": 9,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 8,
+                "word": "都",
+                "pos": "SCONJ",
+                "head": 9,
+                "deprel": "mark"
+            },
+            {
+                "id": 9,
+                "word": "用",
+                "pos": "VERB",
+                "head": 14,
+                "deprel": "advcl"
+            },
+            {
+                "id": 10,
+                "word": "在",
+                "pos": "VERB",
+                "head": 9,
+                "deprel": "mark"
+            },
+            {
+                "id": 11,
+                "word": "了",
+                "pos": "AUX",
+                "head": 9,
+                "deprel": "aux"
+            },
+            {
+                "id": 12,
+                "word": "手机",
+                "pos": "NOUN",
+                "head": 9,
+                "deprel": "obj"
+            },
+            {
+                "id": 13,
+                "word": "上",
+                "pos": "ADP",
+                "head": 12,
+                "deprel": "case"
+            },
+            {
+                "id": 14,
+                "word": "多过",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 15,
+                "word": "其他",
+                "pos": "DET",
+                "head": 18,
+                "deprel": "det"
+            },
+            {
+                "id": 16,
+                "word": "任何",
+                "pos": "DET",
+                "head": 18,
+                "deprel": "det"
+            },
+            {
+                "id": 17,
+                "word": "日常",
+                "pos": "ADJ",
+                "head": 18,
+                "deprel": "amod"
+            },
+            {
+                "id": 18,
+                "word": "活动",
+                "pos": "NOUN",
+                "head": 14,
+                "deprel": "obj"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "过度使用的情况太普遍了",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "过度",
+                "pos": "ADV",
+                "head": 2,
+                "deprel": "advmod"
+            },
+            {
+                "id": 2,
+                "word": "使用",
+                "pos": "VERB",
+                "head": 4,
+                "deprel": "acl:relcl"
+            },
+            {
+                "id": 3,
+                "word": "的",
+                "pos": "SCONJ",
+                "head": 2,
+                "deprel": "mark:rel"
+            },
+            {
+                "id": 4,
+                "word": "情况",
+                "pos": "NOUN",
+                "head": 6,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 5,
+                "word": "太",
+                "pos": "ADV",
+                "head": 6,
+                "deprel": "advmod"
+            },
+            {
+                "id": 6,
+                "word": "普遍",
+                "pos": "ADJ",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 7,
+                "word": "了",
+                "pos": "PART",
+                "head": 6,
+                "deprel": "discourse"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "研究人员甚至创造了无手机恐惧症的说法",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "研究",
+                "pos": "NOUN",
+                "head": 2,
+                "deprel": "nmod"
+            },
+            {
+                "id": 2,
+                "word": "人员",
+                "pos": "NOUN",
+                "head": 4,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 3,
+                "word": "甚至",
+                "pos": "SCONJ",
+                "head": 4,
+                "deprel": "mark"
+            },
+            {
+                "id": 4,
+                "word": "创造",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 5,
+                "word": "了",
+                "pos": "AUX",
+                "head": 4,
+                "deprel": "aux"
+            },
+            {
+                "id": 6,
+                "word": "无",
+                "pos": "VERB",
+                "head": 10,
+                "deprel": "acl:relcl"
+            },
+            {
+                "id": 7,
+                "word": "手机",
+                "pos": "NOUN",
+                "head": 8,
+                "deprel": "nmod"
+            },
+            {
+                "id": 8,
+                "word": "恐惧症",
+                "pos": "NOUN",
+                "head": 6,
+                "deprel": "obj"
+            },
+            {
+                "id": 9,
+                "word": "的",
+                "pos": "SCONJ",
+                "head": 6,
+                "deprel": "mark:rel"
+            },
+            {
+                "id": 10,
+                "word": "说法",
+                "pos": "NOUN",
+                "head": 4,
+                "deprel": "obj"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "形容人害怕没了手机",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "形容",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 2,
+                "word": "人",
+                "pos": "NOUN",
+                "head": 3,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 3,
+                "word": "害怕",
+                "pos": "VERB",
+                "head": 1,
+                "deprel": "ccomp"
+            },
+            {
+                "id": 4,
+                "word": "没",
+                "pos": "VERB",
+                "head": 3,
+                "deprel": "xcomp"
+            },
+            {
+                "id": 5,
+                "word": "了",
+                "pos": "AUX",
+                "head": 4,
+                "deprel": "aux"
+            },
+            {
+                "id": 6,
+                "word": "手机",
+                "pos": "NOUN",
+                "head": 4,
+                "deprel": "obj"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "魔兽世界恐怕是全球最容易让人行为上瘾的体验之一",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "魔兽世界",
+                "pos": "PROPN",
+                "head": 13,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 2,
+                "word": "恐怕",
+                "pos": "ADV",
+                "head": 13,
+                "deprel": "advmod"
+            },
+            {
+                "id": 3,
+                "word": "是",
+                "pos": "AUX",
+                "head": 13,
+                "deprel": "cop"
+            },
+            {
+                "id": 4,
+                "word": "全球",
+                "pos": "NOUN",
+                "head": 7,
+                "deprel": "obl"
+            },
+            {
+                "id": 5,
+                "word": "最",
+                "pos": "ADV",
+                "head": 6,
+                "deprel": "advmod"
+            },
+            {
+                "id": 6,
+                "word": "容易",
+                "pos": "ADV",
+                "head": 7,
+                "deprel": "advmod"
+            },
+            {
+                "id": 7,
+                "word": "让",
+                "pos": "VERB",
+                "head": 13,
+                "deprel": "acl:relcl"
+            },
+            {
+                "id": 8,
+                "word": "人",
+                "pos": "NOUN",
+                "head": 9,
+                "deprel": "nmod"
+            },
+            {
+                "id": 9,
+                "word": "行为",
+                "pos": "NOUN",
+                "head": 10,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 10,
+                "word": "上瘾",
+                "pos": "VERB",
+                "head": 7,
+                "deprel": "ccomp"
+            },
+            {
+                "id": 11,
+                "word": "的",
+                "pos": "SCONJ",
+                "head": 7,
+                "deprel": "mark:rel"
+            },
+            {
+                "id": 12,
+                "word": "体验",
+                "pos": "NOUN",
+                "head": 13,
+                "deprel": "nmod"
+            },
+            {
+                "id": 13,
+                "word": "之一",
+                "pos": "NOUN",
+                "head": 0,
+                "deprel": "root"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "这是一款大型多人在线角色扮演游戏",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "这",
+                "pos": "PRON",
+                "head": 7,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 2,
+                "word": "是",
+                "pos": "AUX",
+                "head": 7,
+                "deprel": "cop"
+            },
+            {
+                "id": 3,
+                "word": "一款",
+                "pos": "DET",
+                "head": 7,
+                "deprel": "det"
+            },
+            {
+                "id": 4,
+                "word": "大型",
+                "pos": "NOUN",
+                "head": 7,
+                "deprel": "nmod"
+            },
+            {
+                "id": 5,
+                "word": "多人在线",
+                "pos": "NOUN",
+                "head": 7,
+                "deprel": "nmod"
+            },
+            {
+                "id": 6,
+                "word": "角色扮演",
+                "pos": "NOUN",
+                "head": 7,
+                "deprel": "nmod"
+            },
+            {
+                "id": 7,
+                "word": "游戏",
+                "pos": "NOUN",
+                "head": 0,
+                "deprel": "root"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "数百万来自世界各地的玩家创建虚拟化身",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "数百万",
+                "pos": "NUM",
+                "head": 6,
+                "deprel": "nummod"
+            },
+            {
+                "id": 2,
+                "word": "来自",
+                "pos": "VERB",
+                "head": 6,
+                "deprel": "acl:relcl"
+            },
+            {
+                "id": 3,
+                "word": "世界",
+                "pos": "NOUN",
+                "head": 4,
+                "deprel": "nmod"
+            },
+            {
+                "id": 4,
+                "word": "各地",
+                "pos": "NOUN",
+                "head": 2,
+                "deprel": "obj"
+            },
+            {
+                "id": 5,
+                "word": "的",
+                "pos": "SCONJ",
+                "head": 2,
+                "deprel": "mark:rel"
+            },
+            {
+                "id": 6,
+                "word": "玩家",
+                "pos": "NOUN",
+                "head": 7,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 7,
+                "word": "创建",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 8,
+                "word": "虚拟",
+                "pos": "ADJ",
+                "head": 9,
+                "deprel": "amod"
+            },
+            {
+                "id": 9,
+                "word": "化身",
+                "pos": "NOUN",
+                "head": 7,
+                "deprel": "obj"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "全体玩家里有一半都认为自己上瘾了",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "全体",
+                "pos": "DET",
+                "head": 2,
+                "deprel": "det"
+            },
+            {
+                "id": 2,
+                "word": "玩家",
+                "pos": "NOUN",
+                "head": 7,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 3,
+                "word": "里",
+                "pos": "ADP",
+                "head": 2,
+                "deprel": "case"
+            },
+            {
+                "id": 4,
+                "word": "有",
+                "pos": "VERB",
+                "head": 7,
+                "deprel": "advcl"
+            },
+            {
+                "id": 5,
+                "word": "一半",
+                "pos": "NUM",
+                "head": 4,
+                "deprel": "obj"
+            },
+            {
+                "id": 6,
+                "word": "都",
+                "pos": "SCONJ",
+                "head": 7,
+                "deprel": "mark"
+            },
+            {
+                "id": 7,
+                "word": "认为",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 8,
+                "word": "自己",
+                "pos": "PRON",
+                "head": 9,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 9,
+                "word": "上瘾",
+                "pos": "VERB",
+                "head": 7,
+                "deprel": "ccomp"
+            },
+            {
+                "id": 10,
+                "word": "了",
+                "pos": "PART",
+                "head": 7,
+                "deprel": "discourse"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "如果全体玩家组建成一个国家",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "如果",
+                "pos": "ADP",
+                "head": 4,
+                "deprel": "case"
+            },
+            {
+                "id": 2,
+                "word": "全体",
+                "pos": "DET",
+                "head": 3,
+                "deprel": "det"
+            },
+            {
+                "id": 3,
+                "word": "玩家",
+                "pos": "NOUN",
+                "head": 4,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 4,
+                "word": "组建",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 5,
+                "word": "成",
+                "pos": "VERB",
+                "head": 4,
+                "deprel": "mark"
+            },
+            {
+                "id": 6,
+                "word": "一个",
+                "pos": "DET",
+                "head": 7,
+                "deprel": "det"
+            },
+            {
+                "id": 7,
+                "word": "国家",
+                "pos": "NOUN",
+                "head": 4,
+                "deprel": "obj"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "text": "其人口规模可以跻身全球十二强",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "其",
+                "pos": "PRON",
+                "head": 3,
+                "deprel": "nmod"
+            },
+            {
+                "id": 2,
+                "word": "人口",
+                "pos": "NOUN",
+                "head": 3,
+                "deprel": "nmod"
+            },
+            {
+                "id": 3,
+                "word": "规模",
+                "pos": "NOUN",
+                "head": 5,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 4,
+                "word": "可以",
+                "pos": "AUX",
+                "head": 5,
+                "deprel": "aux"
+            },
+            {
+                "id": 5,
+                "word": "跻身",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 6,
+                "word": "全球",
+                "pos": "NOUN",
+                "head": 8,
+                "deprel": "nmod"
+            },
+            {
+                "id": 7,
+                "word": "十二",
+                "pos": "NUM",
+                "head": 8,
+                "deprel": "nummod"
+            },
+            {
+                "id": 8,
+                "word": "强",
+                "pos": "NOUN",
+                "head": 5,
+                "deprel": "obj"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "text": "魔兽世界一类的游戏吸引到了数以百万计的青少年和小年轻",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "魔兽世界",
+                "pos": "PROPN",
+                "head": 4,
+                "deprel": "nmod"
+            },
+            {
+                "id": 2,
+                "word": "一类",
+                "pos": "NUM",
+                "head": 4,
+                "deprel": "nummod"
+            },
+            {
+                "id": 3,
+                "word": "的",
+                "pos": "PART",
+                "head": 2,
+                "deprel": "case"
+            },
+            {
+                "id": 4,
+                "word": "游戏",
+                "pos": "NOUN",
+                "head": 5,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 5,
+                "word": "吸引",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 6,
+                "word": "到",
+                "pos": "VERB",
+                "head": 5,
+                "deprel": "mark"
+            },
+            {
+                "id": 7,
+                "word": "了",
+                "pos": "AUX",
+                "head": 5,
+                "deprel": "aux"
+            },
+            {
+                "id": 8,
+                "word": "数以百万计",
+                "pos": "NUM",
+                "head": 10,
+                "deprel": "nummod"
+            },
+            {
+                "id": 9,
+                "word": "的",
+                "pos": "SCONJ",
+                "head": 8,
+                "deprel": "mark:rel"
+            },
+            {
+                "id": 10,
+                "word": "青少年",
+                "pos": "NOUN",
+                "head": 5,
+                "deprel": "obj"
+            },
+            {
+                "id": 11,
+                "word": "和",
+                "pos": "CCONJ",
+                "head": 12,
+                "deprel": "cc"
+            },
+            {
+                "id": 12,
+                "word": "小年轻",
+                "pos": "NOUN",
+                "head": 10,
+                "deprel": "conj"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "text": "此前的电脑从来没有足够内存运行像魔兽世界这种游戏",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "此前",
+                "pos": "NOUN",
+                "head": 3,
+                "deprel": "nmod"
+            },
+            {
+                "id": 2,
+                "word": "的",
+                "pos": "PART",
+                "head": 1,
+                "deprel": "case"
+            },
+            {
+                "id": 3,
+                "word": "电脑",
+                "pos": "NOUN",
+                "head": 5,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 4,
+                "word": "从来",
+                "pos": "ADV",
+                "head": 5,
+                "deprel": "advmod"
+            },
+            {
+                "id": 5,
+                "word": "没有",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 6,
+                "word": "足够",
+                "pos": "ADJ",
+                "head": 7,
+                "deprel": "amod"
+            },
+            {
+                "id": 7,
+                "word": "内存",
+                "pos": "NOUN",
+                "head": 8,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 8,
+                "word": "运行",
+                "pos": "VERB",
+                "head": 5,
+                "deprel": "xcomp"
+            },
+            {
+                "id": 9,
+                "word": "像",
+                "pos": "ADP",
+                "head": 12,
+                "deprel": "case"
+            },
+            {
+                "id": 10,
+                "word": "魔兽世界",
+                "pos": "NOUN",
+                "head": 12,
+                "deprel": "nmod"
+            },
+            {
+                "id": 11,
+                "word": "这种",
+                "pos": "DET",
+                "head": 12,
+                "deprel": "det"
+            },
+            {
+                "id": 12,
+                "word": "游戏",
+                "pos": "NOUN",
+                "head": 8,
+                "deprel": "obl"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "text": "魔兽世界速度更快身临其境感更强",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "魔兽世界",
+                "pos": "NOUN",
+                "head": 2,
+                "deprel": "nmod"
+            },
+            {
+                "id": 2,
+                "word": "速度",
+                "pos": "NOUN",
+                "head": 4,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 3,
+                "word": "更",
+                "pos": "ADV",
+                "head": 4,
+                "deprel": "advmod"
+            },
+            {
+                "id": 4,
+                "word": "快",
+                "pos": "ADJ",
+                "head": 8,
+                "deprel": "advcl"
+            },
+            {
+                "id": 5,
+                "word": "身临其境",
+                "pos": "ADJ",
+                "head": 6,
+                "deprel": "compound"
+            },
+            {
+                "id": 6,
+                "word": "感",
+                "pos": "PART",
+                "head": 4,
+                "deprel": "obj"
+            },
+            {
+                "id": 7,
+                "word": "更",
+                "pos": "ADV",
+                "head": 8,
+                "deprel": "advmod"
+            },
+            {
+                "id": 8,
+                "word": "强",
+                "pos": "ADJ",
+                "head": 0,
+                "deprel": "root"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "text": "游戏本身却更加轻盈",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "游戏",
+                "pos": "NOUN",
+                "head": 5,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 2,
+                "word": "本身",
+                "pos": "PRON",
+                "head": 1,
+                "deprel": "appos"
+            },
+            {
+                "id": 3,
+                "word": "却",
+                "pos": "SCONJ",
+                "head": 5,
+                "deprel": "mark"
+            },
+            {
+                "id": 4,
+                "word": "更加",
+                "pos": "ADV",
+                "head": 5,
+                "deprel": "advmod"
+            },
+            {
+                "id": 5,
+                "word": "轻盈",
+                "pos": "ADJ",
+                "head": 0,
+                "deprel": "root"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "text": "这类游戏能让你与他人实时互动",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "这",
+                "pos": "DET",
+                "head": 3,
+                "deprel": "det"
+            },
+            {
+                "id": 2,
+                "word": "类",
+                "pos": "NOUN",
+                "head": 1,
+                "deprel": "clf"
+            },
+            {
+                "id": 3,
+                "word": "游戏",
+                "pos": "NOUN",
+                "head": 5,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 4,
+                "word": "能",
+                "pos": "AUX",
+                "head": 5,
+                "deprel": "aux"
+            },
+            {
+                "id": 5,
+                "word": "让",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 6,
+                "word": "你",
+                "pos": "PRON",
+                "head": 10,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 7,
+                "word": "与",
+                "pos": "ADP",
+                "head": 8,
+                "deprel": "case"
+            },
+            {
+                "id": 8,
+                "word": "他人",
+                "pos": "NOUN",
+                "head": 10,
+                "deprel": "obl"
+            },
+            {
+                "id": 9,
+                "word": "实时",
+                "pos": "ADV",
+                "head": 10,
+                "deprel": "advmod"
+            },
+            {
+                "id": 10,
+                "word": "互动",
+                "pos": "VERB",
+                "head": 5,
+                "deprel": "ccomp"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "text": "这也是它们上瘾性极强的部分原因",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "这",
+                "pos": "PRON",
+                "head": 9,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 2,
+                "word": "也",
+                "pos": "SCONJ",
+                "head": 9,
+                "deprel": "mark"
+            },
+            {
+                "id": 3,
+                "word": "是",
+                "pos": "AUX",
+                "head": 9,
+                "deprel": "cop"
+            },
+            {
+                "id": 4,
+                "word": "它们",
+                "pos": "PRON",
+                "head": 5,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 5,
+                "word": "上瘾性",
+                "pos": "VERB",
+                "head": 6,
+                "deprel": "advcl"
+            },
+            {
+                "id": 6,
+                "word": "极强",
+                "pos": "ADJ",
+                "head": 9,
+                "deprel": "acl:relcl"
+            },
+            {
+                "id": 7,
+                "word": "的",
+                "pos": "SCONJ",
+                "head": 6,
+                "deprel": "mark:rel"
+            },
+            {
+                "id": 8,
+                "word": "部分",
+                "pos": "NOUN",
+                "head": 9,
+                "deprel": "nmod"
+            },
+            {
+                "id": 9,
+                "word": "原因",
+                "pos": "NOUN",
+                "head": 0,
+                "deprel": "root"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "text": "技术还改变了我们的锻炼方式",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "技术",
+                "pos": "NOUN",
+                "head": 3,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 2,
+                "word": "还",
+                "pos": "SCONJ",
+                "head": 3,
+                "deprel": "mark"
+            },
+            {
+                "id": 3,
+                "word": "改变",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 4,
+                "word": "了",
+                "pos": "AUX",
+                "head": 3,
+                "deprel": "aux"
+            },
+            {
+                "id": 5,
+                "word": "我们",
+                "pos": "PRON",
+                "head": 8,
+                "deprel": "det"
+            },
+            {
+                "id": 6,
+                "word": "的",
+                "pos": "PART",
+                "head": 5,
+                "deprel": "case"
+            },
+            {
+                "id": 7,
+                "word": "锻炼",
+                "pos": "NOUN",
+                "head": 8,
+                "deprel": "nmod"
+            },
+            {
+                "id": 8,
+                "word": "方式",
+                "pos": "NOUN",
+                "head": 3,
+                "deprel": "obj"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "text": "我买过一款早期型号的佳明运动手表",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "我",
+                "pos": "PRON",
+                "head": 2,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 2,
+                "word": "买过",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 3,
+                "word": "一款",
+                "pos": "DET",
+                "head": 5,
+                "deprel": "det"
+            },
+            {
+                "id": 4,
+                "word": "早期",
+                "pos": "NOUN",
+                "head": 5,
+                "deprel": "nmod"
+            },
+            {
+                "id": 5,
+                "word": "型号",
+                "pos": "NOUN",
+                "head": 9,
+                "deprel": "nmod"
+            },
+            {
+                "id": 6,
+                "word": "的",
+                "pos": "PART",
+                "head": 5,
+                "deprel": "case"
+            },
+            {
+                "id": 7,
+                "word": "佳明",
+                "pos": "PROPN",
+                "head": 9,
+                "deprel": "nmod"
+            },
+            {
+                "id": 8,
+                "word": "运动",
+                "pos": "NOUN",
+                "head": 9,
+                "deprel": "nmod"
+            },
+            {
+                "id": 9,
+                "word": "手表",
+                "pos": "NOUN",
+                "head": 2,
+                "deprel": "obj"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "text": "那是一台硕大的长方形设备",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "那",
+                "pos": "PRON",
+                "head": 7,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 2,
+                "word": "是",
+                "pos": "AUX",
+                "head": 7,
+                "deprel": "cop"
+            },
+            {
+                "id": 3,
+                "word": "一台",
+                "pos": "NOUN",
+                "head": 4,
+                "deprel": "obl"
+            },
+            {
+                "id": 4,
+                "word": "硕大",
+                "pos": "ADJ",
+                "head": 7,
+                "deprel": "amod"
+            },
+            {
+                "id": 5,
+                "word": "的",
+                "pos": "SCONJ",
+                "head": 4,
+                "deprel": "mark:rel"
+            },
+            {
+                "id": 6,
+                "word": "长方形",
+                "pos": "NOUN",
+                "head": 7,
+                "deprel": "nmod"
+            },
+            {
+                "id": 7,
+                "word": "设备",
+                "pos": "NOUN",
+                "head": 0,
+                "deprel": "root"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "text": "重量介乎于手表到手腕配重沙袋之间",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "重量",
+                "pos": "NOUN",
+                "head": 2,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 2,
+                "word": "介乎",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 3,
+                "word": "于",
+                "pos": "VERB",
+                "head": 2,
+                "deprel": "mark"
+            },
+            {
+                "id": 4,
+                "word": "手表",
+                "pos": "NOUN",
+                "head": 5,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 5,
+                "word": "到",
+                "pos": "VERB",
+                "head": 7,
+                "deprel": "advcl"
+            },
+            {
+                "id": 6,
+                "word": "手腕",
+                "pos": "NOUN",
+                "head": 5,
+                "deprel": "obj"
+            },
+            {
+                "id": 7,
+                "word": "配重",
+                "pos": "VERB",
+                "head": 2,
+                "deprel": "ccomp"
+            },
+            {
+                "id": 8,
+                "word": "沙袋",
+                "pos": "NOUN",
+                "head": 7,
+                "deprel": "obj"
+            },
+            {
+                "id": 9,
+                "word": "之间",
+                "pos": "ADP",
+                "head": 8,
+                "deprel": "case"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "text": "它真是太重了为了保持手部平衡",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "它",
+                "pos": "PRON",
+                "head": 3,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 2,
+                "word": "真",
+                "pos": "ADV",
+                "head": 3,
+                "deprel": "advmod"
+            },
+            {
+                "id": 3,
+                "word": "是",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 4,
+                "word": "太重",
+                "pos": "ADJ",
+                "head": 3,
+                "deprel": "xcomp"
+            },
+            {
+                "id": 5,
+                "word": "了",
+                "pos": "AUX",
+                "head": 4,
+                "deprel": "aux"
+            },
+            {
+                "id": 6,
+                "word": "为了",
+                "pos": "ADP",
+                "head": 7,
+                "deprel": "case"
+            },
+            {
+                "id": 7,
+                "word": "保持",
+                "pos": "VERB",
+                "head": 4,
+                "deprel": "xcomp"
+            },
+            {
+                "id": 8,
+                "word": "手部",
+                "pos": "NOUN",
+                "head": 9,
+                "deprel": "nmod"
+            },
+            {
+                "id": 9,
+                "word": "平衡",
+                "pos": "NOUN",
+                "head": 7,
+                "deprel": "obj"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "text": "我只好用另一只手拿一瓶水",
+        "tokens": [
+            {
+                "id": 1,
+                "word": "我",
+                "pos": "PRON",
+                "head": 6,
+                "deprel": "nsubj"
+            },
+            {
+                "id": 2,
+                "word": "只好",
+                "pos": "ADV",
+                "head": 6,
+                "deprel": "advmod"
+            },
+            {
+                "id": 3,
+                "word": "用",
+                "pos": "VERB",
+                "head": 6,
+                "deprel": "advcl"
+            },
+            {
+                "id": 4,
+                "word": "另一只",
+                "pos": "DET",
+                "head": 5,
+                "deprel": "det"
+            },
+            {
+                "id": 5,
+                "word": "手",
+                "pos": "NOUN",
+                "head": 3,
+                "deprel": "obj"
+            },
+            {
+                "id": 6,
+                "word": "拿",
+                "pos": "VERB",
+                "head": 0,
+                "deprel": "root"
+            },
+            {
+                "id": 7,
+                "word": "一瓶",
+                "pos": "NUM",
+                "head": 8,
+                "deprel": "nummod"
+            },
+            {
+                "id": 8,
+                "word": "水",
+                "pos": "NOUN",
+                "head": 6,
+                "deprel": "obj"
+            }
+        ]
+    }
+]
